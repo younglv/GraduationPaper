@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="c6f549fc-18a7-403c-b62a-a00b22535e61"
+  name="CoXFeedChart" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="529c2811-1127-47bc-855d-55b0ca75cfef"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="62f0a378-8ced-44f6-9a12-569c5dc238c5"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="499a8689-3076-4404-b7af-746f5a653b6d"
+        name="Website"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="41a037c6-5639-4538-844d-c6ee5f60316d"
+        name="用户"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="406d474f-bbd6-44e5-b763-f71a09b0c86e"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="选择日期"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="be72495a-fbde-48eb-848c-18d8d87316cb"
+              LastKnownName="选择日期"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ce1cc25c-e59e-403c-8d04-9a917d6fc36a"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f731e85-85e7-45bd-9fc5-4009d04a8213"
+                  name="选择日期"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="64c764de-78aa-4c47-9a41-32d07313d8fc"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="  选择网络&#xD;&#xA;     类型"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1b78d2d4-aed3-4315-9a8d-dbd0edb479dd"
+              LastKnownName="  选择网络&#xD;&#xA;     类型"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bade85dd-e80f-4463-a0b4-4e33b9d848c5"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="326bb291-5a0e-4f0b-afc9-e2c5ed529c36"
+                  name="  选择网络&#xD;&#xA;     类型"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="27846fc5-dc1f-4a26-9224-70c896e9fcdc"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="   选择产品&#xD;&#xA;       平台"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="45941f17-5e38-4f31-87b5-0d79fceb6c8f"
+              LastKnownName="   选择产品&#xD;&#xA;       平台"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a53e9a5e-7c41-41f1-9c2d-8a7f7cfa0cd8"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69250b1b-8d00-484a-8d9e-40a1a8182b37"
+                  name="   选择产品&#xD;&#xA;       平台"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3f80b4b0-3e61-448f-abcb-c3dfd6b751df"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="   选择发布&#xD;&#xA;       市场"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="82b75d0b-1051-4f90-854a-00ba567b45ad"
+              LastKnownName="   选择发布&#xD;&#xA;       市场"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="29eb0f3f-63ce-4806-be2c-b9cffd142e8e"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="234e5582-8974-46cf-9ed3-2e5b50457b79"
+                  name="   选择发布&#xD;&#xA;       市场"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6d6a7bfc-10d2-4699-8a13-3c33cd178b9e"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="选择版本号"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b312f106-fbc4-4de8-a805-04a0a2acdc00"
+              LastKnownName="选择版本号"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eb2b798a-f5fe-4e93-b482-2f7007b19b2f"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7910901f-a655-430b-99c2-e49c0d1ebc3e"
+                  name="选择版本号"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6fe52c49-9760-4eb3-b77a-548fa98e1f42"
+            isDerived="false"
+            sourceEndRoleName="用户"
+            targetEndRoleName="选择趋势图"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2bf97917-8a91-4f83-8d41-ed542f514406"
+              LastKnownName="查看趋势图"
+              LastKnownLocation="CoXFeedChart.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e00ce36b-41fc-481d-909d-33a7dceb0f44"
+                  name="用户"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="48a9569e-d232-4aaa-9028-6f989023c7ef"
+                  name="选择趋势图"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="be72495a-fbde-48eb-848c-18d8d87316cb"
+        name="选择日期"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2bf97917-8a91-4f83-8d41-ed542f514406"
+        name="查看趋势图"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1b78d2d4-aed3-4315-9a8d-dbd0edb479dd"
+        name="  选择网络&#xD;&#xA;     类型"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b312f106-fbc4-4de8-a805-04a0a2acdc00"
+        name="选择版本号"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45941f17-5e38-4f31-87b5-0d79fceb6c8f"
+        name="   选择产品&#xD;&#xA;       平台"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="82b75d0b-1051-4f90-854a-00ba567b45ad"
+        name="   选择发布&#xD;&#xA;       市场"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="499a8689-3076-4404-b7af-746f5a653b6d"
+            LastKnownName="Website"
+            LastKnownLocation="CoXFeedChart.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4ff501cb-bfb6-4d7b-a1c6-c9d6ef3618ce"
+        name="LogEventInit"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="91125069-8f22-4209-a8a8-61d80a85a002">
+            <classMoniker
+              Id="3c127b8c-f172-4339-bd24-9e7c80bc1f74"
+              LastKnownName="Log"
+              LastKnownLocation="CoXFeedChart.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6268d98d-5393-4740-93f9-87837536ee53"
+            name="TenantToken"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="5894c599-23fe-4978-9a43-51aaae751f2b"
+                LastKnownName="string"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="52404aaa-22c7-4117-a1bb-04aa47738816"
+            name="LogEventInit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2b6cd84b-5118-400c-a905-bd1ac54fc3c7"
+                  name="string"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1acae4c1-bc28-4134-9ece-5a241dc0928a"
+            name="LogEventSend"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="88911a9b-4b4b-4b54-a621-e8b72872e26e"
+                  name="Log"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="5894c599-23fe-4978-9a43-51aaae751f2b"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3c127b8c-f172-4339-bd24-9e7c80bc1f74"
+        name="Log"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="a6234c01-3088-47f0-b38b-2f6803653044"
+            name="EventName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="79fe5bef-e942-401b-b878-6f393fc60a84"
+                LastKnownName="stirng"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="50785ec6-6d37-40a1-b353-36182a2937f9"
+            name="ImpressionID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="5894c599-23fe-4978-9a43-51aaae751f2b"
+                LastKnownName="string"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3a414927-3db8-4c9e-acd7-50ce2cc9727a"
+            name="TimeStamp"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="5894c599-23fe-4978-9a43-51aaae751f2b"
+                LastKnownName="string"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="55401659-8a6b-453e-a632-96747fda0ff9"
+            name="Language"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="5894c599-23fe-4978-9a43-51aaae751f2b"
+                LastKnownName="string"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="041d38a4-d7f2-4125-8a73-c3c23faf2af5"
+            name="OtherAttri"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="7bd3ce47-c27e-4565-9a4a-ff6dea665e18"
+                LastKnownName="Dictionary"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f0f2bcdd-3bb6-40ee-8c60-871b41b04b66"
+            name="GetTimeStamp"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b4c6ea83-0213-4ec9-9bc7-5322525044b5"
+            name="GetImpressionID"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="79fe5bef-e942-401b-b878-6f393fc60a84"
+        name="stirng" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="15036bdc-a0f0-46a9-9705-8a49e6e6ba53"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="7bd3ce47-c27e-4565-9a4a-ff6dea665e18"
+        name="Dictionary" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

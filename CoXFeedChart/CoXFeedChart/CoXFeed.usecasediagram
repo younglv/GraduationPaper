@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8c3450e8-0c65-4974-9539-12a9a4db4624" name="CoXFeed" linkedPackageId="49c19549-1f80-47f8-8ead-01839881acdd" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="6dd3350b-91e7-4be2-be14-33bb6f260e4f">
+      <profileInstance Id="666a11a1-1672-458b-a0ff-578e275fb5c3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="84ef227f-8ff4-4f53-ad7b-8254a26d3b9a">
+      <profileInstance Id="597900e1-61be-499f-84d0-69493b588d84" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" name="Website" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="499a8689-3076-4404-b7af-746f5a653b6d" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7767e4ac-ef30-4f3f-b725-9414cf851855" name="用户" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41a037c6-5639-4538-844d-c6ee5f60316d" />
+        <targetEnds>
+          <association Id="64b5a8b8-4eb2-4867-bf44-d6b86c6853b7" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="选择日期" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="600d0801-6741-4588-9cbc-f581f1af9860" LastKnownName="选择日期" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ace149fc-98d3-452a-867b-301b2fb76572" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ce1cc25c-e59e-403c-8d04-9a917d6fc36a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d66788b8-8b12-4b9a-9bbd-c055002df5d6" name="选择日期" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1f731e85-85e7-45bd-9fc5-4009d04a8213" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="406d474f-bbd6-44e5-b763-f71a09b0c86e" />
+          </association>
+          <association Id="4fa14c62-f531-4dd3-aa53-b6079d73d8e5" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="  选择网络&#xD;&#xA;     类型" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e6c103b8-90b7-4159-a773-b0a3220ce96f" LastKnownName="  选择网络&#xD;&#xA;     类型" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="374ed78c-da72-41ae-b9b8-4a313a38b736" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bade85dd-e80f-4463-a0b4-4e33b9d848c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="396e9a49-2cf6-46aa-87ef-c766dace5cfa" name="  选择网络&#xD;&#xA;     类型" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="326bb291-5a0e-4f0b-afc9-e2c5ed529c36" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="64c764de-78aa-4c47-9a41-32d07313d8fc" />
+          </association>
+          <association Id="12545a2d-6e29-4b47-ac8c-46a9d4dc1c3a" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="   选择产品&#xD;&#xA;       平台" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f6f8eb71-6930-458b-89c8-696199c19cce" LastKnownName="   选择产品&#xD;&#xA;       平台" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="05455158-3154-488e-950f-37bd201f89e8" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a53e9a5e-7c41-41f1-9c2d-8a7f7cfa0cd8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="53f717b1-fb60-48e1-9336-3e0eadcd10ec" name="   选择产品&#xD;&#xA;       平台" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="69250b1b-8d00-484a-8d9e-40a1a8182b37" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="27846fc5-dc1f-4a26-9224-70c896e9fcdc" />
+          </association>
+          <association Id="ec948e18-b1f1-434c-8a39-104c55b85d66" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="   选择发布&#xD;&#xA;       市场" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e96e1785-74b6-4669-b0e2-83dc0f11c5a9" LastKnownName="   选择发布&#xD;&#xA;       市场" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ba915d0-3c19-40b6-861b-ecf694796e9a" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="29eb0f3f-63ce-4806-be2c-b9cffd142e8e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="433d1a35-aad5-40d2-b2c0-6f6100b9c674" name="   选择发布&#xD;&#xA;       市场" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="234e5582-8974-46cf-9ed3-2e5b50457b79" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3f80b4b0-3e61-448f-abcb-c3dfd6b751df" />
+          </association>
+          <association Id="f95ebb9b-1767-48c5-95e1-a9fe3f5434a4" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="选择版本号" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="56ed788f-5832-4b4a-87bf-3ec5dc0926e3" LastKnownName="选择版本号" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="760b6f8e-e023-430d-825e-38c9ed18773a" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eb2b798a-f5fe-4e93-b482-2f7007b19b2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae5b1c4c-45b5-4c81-8432-d256b521c5b6" name="选择版本号" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7910901f-a655-430b-99c2-e49c0d1ebc3e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6d6a7bfc-10d2-4699-8a13-3c33cd178b9e" />
+          </association>
+          <association Id="7cfaa9e6-d1a8-4cc9-8f3e-8434dd9395b0" isDerived="false" sourceEndRoleName="用户" targetEndRoleName="选择趋势图" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d98c7c4e-793d-40a9-8c56-6285d9c90321" LastKnownName="查看趋势图" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="783d5e17-dff7-4136-92a8-12b177facd7f" name="用户" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e00ce36b-41fc-481d-909d-33a7dceb0f44" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0566f391-2715-42ad-a17a-9145cec8097c" name="选择趋势图" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="48a9569e-d232-4aaa-9028-6f989023c7ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6fe52c49-9760-4eb3-b77a-548fa98e1f42" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="600d0801-6741-4588-9cbc-f581f1af9860" name="选择日期" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="be72495a-fbde-48eb-848c-18d8d87316cb" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d98c7c4e-793d-40a9-8c56-6285d9c90321" name="查看趋势图" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2bf97917-8a91-4f83-8d41-ed542f514406" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e6c103b8-90b7-4159-a773-b0a3220ce96f" name="  选择网络&#xD;&#xA;     类型" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1b78d2d4-aed3-4315-9a8d-dbd0edb479dd" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="56ed788f-5832-4b4a-87bf-3ec5dc0926e3" name="选择版本号" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b312f106-fbc4-4de8-a805-04a0a2acdc00" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f6f8eb71-6930-458b-89c8-696199c19cce" name="   选择产品&#xD;&#xA;       平台" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45941f17-5e38-4f31-87b5-0d79fceb6c8f" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e96e1785-74b6-4669-b0e2-83dc0f11c5a9" name="   选择发布&#xD;&#xA;       市场" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="82b75d0b-1051-4f90-854a-00ba567b45ad" />
+        <subjects>
+          <subsystemMoniker Id="4a88ad95-e6bd-4790-89b7-ee11661f4788" LastKnownName="Website" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="49c19549-1f80-47f8-8ead-01839881acdd" name="CoXFeedChart">
+    <elementDefinition Id="c6f549fc-18a7-403c-b62a-a00b22535e61" />
+  </package>
+</useCaseModelRoot>

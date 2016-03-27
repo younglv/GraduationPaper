@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="8ff232b7-5237-4405-9141-d309179f3cdc" name="Log" linkedPackageId="47ebc389-7dbb-46bb-8661-359005e0ff0f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="43fe40ed-0d09-4a6c-a3bf-345cb2e79104" name="LogEventInit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4ff501cb-bfb6-4d7b-a1c6-c9d6ef3618ce" />
+        <suppliersInternal>
+          <dependency Id="b8b8fbd1-69e7-49f9-a6bc-c04d8a4a0a34">
+            <classMoniker Id="2d059584-6f73-4f80-9343-c4515fa042b4" LastKnownName="Log" />
+            <elementDefinition Id="91125069-8f22-4209-a8a8-61d80a85a002" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="5ae006c6-87b5-42b9-86d5-3c6a5031e088" name="TenantToken" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6268d98d-5393-4740-93f9-87837536ee53" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0f89538f-50d4-48b1-81e9-b99cb6de486a" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="161675ba-442b-4894-8e3d-96216c39aa79" name="LogEventInit" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="52404aaa-22c7-4117-a1bb-04aa47738816" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a288bea3-b701-4871-9734-d628cc5c7b53" name="string" direction="In" isUnique="false">
+                  <elementDefinition Id="2b6cd84b-5118-400c-a905-bd1ac54fc3c7" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="49e39d43-36f4-4f58-9812-9f9b81e8a08f" name="LogEventSend" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1acae4c1-bc28-4134-9ece-5a241dc0928a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="08708105-ef99-4ca8-bb18-2764608d16ae" name="Log" direction="In" isUnique="false">
+                  <elementDefinition Id="88911a9b-4b4b-4b54-a621-e8b72872e26e" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="0f89538f-50d4-48b1-81e9-b99cb6de486a" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="5894c599-23fe-4978-9a43-51aaae751f2b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2d059584-6f73-4f80-9343-c4515fa042b4" name="Log" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3c127b8c-f172-4339-bd24-9e7c80bc1f74" />
+        <ownedAttributesInternal>
+          <property Id="96e78180-441b-47da-99e4-c15053d3ae69" name="EventName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a6234c01-3088-47f0-b38b-2f6803653044" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5c946083-a3df-4b2f-9a11-e7e1b8bd64a8" LastKnownName="stirng" />
+            </type_NamedElement>
+          </property>
+          <property Id="b992b26d-09cd-4c05-b432-c028c9366766" name="ImpressionID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="50785ec6-6d37-40a1-b353-36182a2937f9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0f89538f-50d4-48b1-81e9-b99cb6de486a" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="3a725d5a-5e0d-4426-9c4a-7a87ba52d7b2" name="TimeStamp" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3a414927-3db8-4c9e-acd7-50ce2cc9727a" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7cc1a094-3a18-4695-9e56-3ae4180f2905" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="29e18326-b241-491b-8925-fa3bbeac03b5" name="Language" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="55401659-8a6b-453e-a632-96747fda0ff9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0f89538f-50d4-48b1-81e9-b99cb6de486a" LastKnownName="string" />
+            </type_NamedElement>
+          </property>
+          <property Id="c80ccf5b-846c-4ee3-b8ba-1c521f304cf4" name="OtherAttri" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="041d38a4-d7f2-4125-8a73-c3c23faf2af5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e56a9d79-add7-4aee-b922-557c7b3b7430" LastKnownName="Dictionary" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4e00323a-41fc-4f31-a6e0-470da10c16fa" name="GetTimeStamp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f0f2bcdd-3bb6-40ee-8c60-871b41b04b66" />
+          </operation>
+          <operation Id="0b1700e3-beed-4f99-a6de-f6f286275fe2" name="GetImpressionID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b4c6ea83-0213-4ec9-9bc7-5322525044b5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5c946083-a3df-4b2f-9a11-e7e1b8bd64a8" name="stirng" isAbstract="false" isLeaf="false" cachedFullName="stirng">
+        <elementDefinition Id="79fe5bef-e942-401b-b878-6f393fc60a84" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7cc1a094-3a18-4695-9e56-3ae4180f2905" name="string" isAbstract="false" isLeaf="false" cachedFullName="string">
+        <elementDefinition Id="5894c599-23fe-4978-9a43-51aaae751f2b" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e56a9d79-add7-4aee-b922-557c7b3b7430" name="Dictionary" isAbstract="false" isLeaf="false" cachedFullName="Dictionary">
+        <elementDefinition Id="7bd3ce47-c27e-4565-9a4a-ff6dea665e18" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="47ebc389-7dbb-46bb-8661-359005e0ff0f" name="CoXFeedChart">
+    <elementDefinition Id="c6f549fc-18a7-403c-b62a-a00b22535e61" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a14dba1c-7e71-4c10-9f73-f57f47030815">
+        <profileInstance Id="f02a5af0-8f30-4989-8fb8-71d90d7108a8" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="440447ee-3ad5-4776-a064-a6978489426b">
+        <profileInstance Id="0efa867f-b4e0-4852-9871-309e17dbc6c5" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
