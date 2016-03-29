@@ -588,6 +588,82 @@
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="841478b7-e4b4-46d2-9dce-9260b20c0a2a"
+        name="ModelingProject1::System::Collections::Generic::Dictionary&lt;String‎, String‎&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="6d355f24-aa65-4236-907c-8204dadd233a"
+        name="ModelingProject1::Package1::StoreXMLHelper" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="268dc06c-7852-47ea-82a8-525881baa185"
+        name="ModelingProject1::Package1::StoreScopeHelper" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="243afe30-7b3e-43ce-ae87-f5dfad179e51"
+        name="ModelingProject1::System::Threading::Thread" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="e2ce47fe-40bb-472b-8197-418abe8e7102"
+        name="ModelingProject1::System::ComponentModel::IContainer" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4e215f1e-99a1-44be-b210-8038cc2fa9e8"
+        name="ModelingProject1::System::Windows::Forms::Button" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="dec5cd9d-54da-4364-8b8d-d0dc5c9ebdd8"
+        name="ModelingProject1::System::Windows::Forms::Label" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="3282d4b9-b026-4634-b98f-81d865241fd6"
+        name="ModelingProject1::System::Windows::Forms::TextBox" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="be8cc4c7-5ebe-4bf6-802c-6e495de0dc6e"
+        name="ModelingProject1::System::Object" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="c72ee374-4ffa-4aa2-b845-318cd0aeaaff"
+        name="ModelingProject1::System::EventArgs" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f95a43eb-e645-4f35-8686-90b10be071fc"
+        name="ModelingProject1::System::Collections::Generic::List&lt;SubmitTask‎&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="02ab22f4-071c-48dd-b984-0cb59f3914b5"
+        name="ModelingProject1::System::Collections::Generic::List&lt;ImportTask‎&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d3bcd8bd-e418-4b58-ba5f-04c891d4b5b5"
+        name="ModelingProject1::Package1::SubmitTask" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="7c4e795a-8288-484f-bfe9-4e55b31f00bb"
+        name="ModelingProject1::Package1::CopyAndImport" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e8c5afaf-8dc2-411f-a67b-46e8171eb9fd"
+        LastKnownName="StoreTool"
+        LastKnownLocation="Package_1710.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
