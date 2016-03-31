@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b83cfab5-c3a5-457c-af51-034b278d0fd1"
+  name="UI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="06ec8103-2757-4e12-a5c0-a72a342e8968"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.UI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4155c880-9f74-411c-afdc-bd2d19fbe8b0"
+        LastKnownName="HtmlControls"
+        LastKnownLocation="Package5_1645.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dd5e27fa-8403-4658-bb33-1bea1ae97e33"
+        LastKnownName="DataVisualization"
+        LastKnownLocation="Package6_1645.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e99a8362-e2ba-462d-b022-0ff458c2fe2d"
+        LastKnownName="WebControls"
+        LastKnownLocation="Package1_1704.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="21e5875e-f8d8-42b2-a21f-081bb8cbdefa"
+        name="Page"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f35846ab-213d-4415-b789-10300c4ee8c5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.UI Type%3DPage"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="970fcf56-b86e-4bfa-8458-40f27f2db79e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d76e42f8-e08f-4289-8fe2-7d430dcf2ad8">
+                <propertyInstance
+                  Id="489040a0-df9d-4e9c-8f29-ceb850d03ac3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3ba01ca-2daa-4e8e-9027-c8fba4eeee6f">
+                <propertyInstance
+                  Id="8f805f90-a4ed-40c3-860c-6b1397ef8b1c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d0445aa-ea59-4dd1-a829-13cdd82cf818">
+                <propertyInstance
+                  Id="58e81f58-7587-4ba3-9f64-5144f627619a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48b54080-ecf4-4ebd-876f-de954273951a">
+                <propertyInstance
+                  Id="57459e3b-f338-476c-bee8-36f6e73946f8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac1940db-a45f-4d32-a1b8-6f8f21cfa530">
+                <propertyInstance
+                  Id="3dcaf02e-20c3-495b-b7da-117a8627492f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

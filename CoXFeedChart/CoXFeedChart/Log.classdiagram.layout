@@ -16,12 +16,12 @@
         <OperationElementListCompartment Id="b5573ebd-bb51-4bbb-a6c6-c236f0c60f69" absoluteBounds="4.6400000000000006, 2.9019530927141508, 1.5950000000000002, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <dependencyConnector edgePoints="[(3.75 : 2.19140623509884); (4.625 : 2.19140623509884)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
-      <dependencyMoniker Id="b8b8fbd1-69e7-49f9-a6bc-c04d8a4a0a34" />
+    <dependencyConnector edgePoints="[(4.625 : 2.19140623509884); (3.75 : 2.19140623509884)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="e4efa049-55ba-40ae-8b4c-2c2b61c5f988" />
       <relativeChildShapes />
       <nodes>
-        <classShapeMoniker Id="834f716c-a235-4378-ae37-94b515441d20" />
         <classShapeMoniker Id="fe683d27-8bcd-488f-934e-066d857a8dbd" />
+        <classShapeMoniker Id="834f716c-a235-4378-ae37-94b515441d20" />
       </nodes>
     </dependencyConnector>
   </nestedChildShapes>

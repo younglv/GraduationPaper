@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7dbfba00-47a9-44ef-9b38-c97325f082e3"
+  name="Data"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4bf0b83f-e463-4a9f-9514-830ac81ec106"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Data"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="4aef257b-66b1-4486-9dc9-af8322e88ee7">
+      <profileInstance
+        Id="9c594565-41e0-43f8-ba21-375cc0778d3c"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e69a754d-1280-4257-ad92-d40471d8a96c"
+        name="DataTable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6ab9042a-7433-4dcf-908a-b8f4f689d0a0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Data.dll&quot; Namespace%3DSystem.Data Type%3DDataTable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="927d49d0-0442-47ec-b28e-4c9c36ac2ca6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af97ad28-1d82-409f-803c-c07a79552580">
+                <propertyInstance
+                  Id="fe5cb98e-b4c3-414e-921f-4f43a574511b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="489ca27d-9271-40c5-829c-755b37dee4ac">
+                <propertyInstance
+                  Id="15ca1fc3-3312-4a5c-aa0b-4f8b04bb493d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddbcb8a6-90db-42ef-8295-eb8523952031">
+                <propertyInstance
+                  Id="6645b155-bd36-401a-885e-edf0ab56a576"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5283fcf0-56c6-4773-8890-914cfa00e6f4">
+                <propertyInstance
+                  Id="0cb6a88b-4e1a-40ab-904d-fcfbad45fb1e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="958cd3ba-6e15-4d56-a6a5-246caf78e55c">
+                <propertyInstance
+                  Id="72023576-a9d7-48df-b32e-9d89c68a143e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="662835c7-7389-452e-a4fb-7070c5ee3a37"
+        LastKnownName="Common"
+        LastKnownLocation="Package_1701.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -62,10 +62,10 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <dependency
-            Id="b9c6b207-1337-4a55-8e30-1c808bf3b555">
+            Id="dfa42778-fffa-4f1e-bfa2-0f37a7aed3ac">
             <classMoniker
-              Id="3b667e83-889e-4073-856c-914478adbec4"
-              LastKnownName="StoreScopeHelper"
+              Id="433a11b7-e766-460a-b359-6281aca98477"
+              LastKnownName="StoreXMLHelper"
               LastKnownLocation="Package_1710.uml" />
           </dependency>
         </suppliersInternal>
@@ -758,10 +758,17 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <dependency
-            Id="103ba89d-61f0-4e1b-8933-6d23eb84b7be">
+            Id="68358d81-1e92-4a2f-a395-2014c737b1f8">
             <classMoniker
-              Id="3b667e83-889e-4073-856c-914478adbec4"
-              LastKnownName="StoreScopeHelper"
+              Id="433a11b7-e766-460a-b359-6281aca98477"
+              LastKnownName="StoreXMLHelper"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="3f24d576-af47-4699-aa5d-cb238e149a21">
+            <classMoniker
+              Id="433a11b7-e766-460a-b359-6281aca98477"
+              LastKnownName="StoreXMLHelper"
               LastKnownLocation="Package_1710.uml" />
           </dependency>
         </suppliersInternal>
@@ -2168,6 +2175,24 @@
               LastKnownLocation="Package_1710.uml" />
           </dependency>
         </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="ee6a8934-6a06-4f16-8412-463e5ea3c5d2"
+            isSubstitutable="false">
+            <classMoniker
+              Id="135f55bd-c3b7-438e-b200-6068740cff59"
+              LastKnownName="System.Windows.Forms.Form"
+              LastKnownLocation="Package_1710.uml" />
+          </generalization>
+          <generalization
+            Id="c3d979cb-84fd-4c57-b4b3-0721dcabbd97"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d20867c2-59b0-4a02-8f36-6e60100b8fe5"
+              LastKnownName="System.Windows.Forms.Form"
+              LastKnownLocation="Package_1710.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="1e4492ef-38c4-4c29-a156-8f408e0382b9"
@@ -4344,10 +4369,17 @@
         </appliedStereotypesInternal>
         <suppliersInternal>
           <dependency
-            Id="f614a4bb-29a2-4e23-a951-a080aef076b0">
+            Id="ae878f72-3907-4e28-a588-d148c434f618">
             <classMoniker
-              Id="3b667e83-889e-4073-856c-914478adbec4"
-              LastKnownName="StoreScopeHelper"
+              Id="433a11b7-e766-460a-b359-6281aca98477"
+              LastKnownName="StoreXMLHelper"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="46339599-2096-44bc-abf5-8232d2dac252">
+            <classMoniker
+              Id="433a11b7-e766-460a-b359-6281aca98477"
+              LastKnownName="StoreXMLHelper"
               LastKnownLocation="Package_1710.uml" />
           </dependency>
         </suppliersInternal>
@@ -5905,15 +5937,6 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <suppliersInternal>
-          <dependency
-            Id="4a3841d4-74ca-4108-97d6-bfc0ef7a6164">
-            <classMoniker
-              Id="3b667e83-889e-4073-856c-914478adbec4"
-              LastKnownName="StoreScopeHelper"
-              LastKnownLocation="Package_1710.uml" />
-          </dependency>
-        </suppliersInternal>
         <ownedAttributesInternal>
           <property
             Id="7b0ccfaf-3ffe-4d89-9d6b-7837bb51a834"
@@ -6568,15 +6591,6 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <suppliersInternal>
-          <dependency
-            Id="4db8e25a-2c53-4d5a-af13-d6bcb7afabd6">
-            <classMoniker
-              Id="3b667e83-889e-4073-856c-914478adbec4"
-              LastKnownName="StoreScopeHelper"
-              LastKnownLocation="Package_1710.uml" />
-          </dependency>
-        </suppliersInternal>
         <ownedOperationsInternal>
           <operation
             Id="3ed58f67-0ad0-40ee-adf7-6d0a296203bd"
@@ -7511,29 +7525,6 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <suppliersInternal>
-          <dependency
-            Id="d2030eed-7e69-492e-966d-7b4f0d8d762f">
-            <classMoniker
-              Id="9a9226eb-2e74-445b-9b02-3204732b11b5"
-              LastKnownName="ImportTask"
-              LastKnownLocation="Package_1710.uml" />
-          </dependency>
-          <dependency
-            Id="a84521b8-c055-41e0-9a63-ab8fe3548c78">
-            <classMoniker
-              Id="45cb7fa7-1307-4733-a0eb-53e919c24540"
-              LastKnownName="SubmitTask"
-              LastKnownLocation="Package_1710.uml" />
-          </dependency>
-          <dependency
-            Id="8e8fa14c-48a7-4f63-8618-5bb4e6c04c58">
-            <classMoniker
-              Id="1dc1c8dc-653f-4d38-8b8f-33370cf02edc"
-              LastKnownName="CopyAndImport"
-              LastKnownLocation="Package_1710.uml" />
-          </dependency>
-        </suppliersInternal>
         <ownedOperationsInternal>
           <operation
             Id="3ef3e0ac-8039-4c35-9902-3448a3c7280b"
@@ -8137,6 +8128,78 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="5fb8f7d2-69e8-4121-b2e6-b68d07c7dc0d">
+            <classMoniker
+              Id="9a9226eb-2e74-445b-9b02-3204732b11b5"
+              LastKnownName="ImportTask"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="d4783cc0-42d6-4552-bcc6-942e1a55545a">
+            <classMoniker
+              Id="45cb7fa7-1307-4733-a0eb-53e919c24540"
+              LastKnownName="SubmitTask"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="53e97a60-0563-4a39-b657-d57b7794c33f">
+            <classMoniker
+              Id="1dc1c8dc-653f-4d38-8b8f-33370cf02edc"
+              LastKnownName="CopyAndImport"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="e326d8f4-b6ed-4f5e-9d6f-34ccfa1f3dfa">
+            <classMoniker
+              Id="f284eb5a-b62c-433d-943f-5be443fec318"
+              LastKnownName="StoreConstant"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="b0145f26-16eb-49b4-a10c-2a54c085f993">
+            <classMoniker
+              Id="0e23fd4b-3012-4dd9-8b67-f2bbf8607cc9"
+              LastKnownName="CommandAreaLibrary"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="44b0ba82-f314-42cf-b42a-845c3f451cb5">
+            <classMoniker
+              Id="0e23fd4b-3012-4dd9-8b67-f2bbf8607cc9"
+              LastKnownName="CommandAreaLibrary"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="e3ffece9-7a50-4c8b-aa84-7a98e3014583">
+            <classMoniker
+              Id="f284eb5a-b62c-433d-943f-5be443fec318"
+              LastKnownName="StoreConstant"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="4e59631f-48e3-47ea-87c3-8a5dfb7b19b0">
+            <classMoniker
+              Id="1dc1c8dc-653f-4d38-8b8f-33370cf02edc"
+              LastKnownName="CopyAndImport"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="cf48da1e-b8ae-4824-8b7d-081b942267ef">
+            <classMoniker
+              Id="9a9226eb-2e74-445b-9b02-3204732b11b5"
+              LastKnownName="ImportTask"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+          <dependency
+            Id="df7f9d53-cb8d-4fe2-a45f-d27ddd67b91b">
+            <classMoniker
+              Id="45cb7fa7-1307-4733-a0eb-53e919c24540"
+              LastKnownName="SubmitTask"
+              LastKnownLocation="Package_1710.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedOperationsInternal>
           <operation
             Id="0a56879e-b8f1-4339-b65f-758a4f0df54b"
@@ -8709,18 +8772,15 @@
         name="System.Windows.Forms.Form"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false">
-        <generalsInternal>
-          <generalization
-            Id="5e13f75a-100d-4aad-86e3-380f77b836ee"
-            isSubstitutable="false">
-            <classMoniker
-              Id="5a287516-5897-4e4b-a7bf-3f0e92cdbef9"
-              LastKnownName="Form1"
-              LastKnownLocation="Package_1710.uml" />
-          </generalization>
-        </generalsInternal>
-      </class>
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d20867c2-59b0-4a02-8f36-6e60100b8fe5"
+        name="System.Windows.Forms.Form"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
     </packageHasNamedElement>
   </packagedElements>
 </package>

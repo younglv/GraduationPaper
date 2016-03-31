@@ -373,15 +373,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <suppliersInternal>
-          <dependency
-            Id="91125069-8f22-4209-a8a8-61d80a85a002">
-            <classMoniker
-              Id="3c127b8c-f172-4339-bd24-9e7c80bc1f74"
-              LastKnownName="Log"
-              LastKnownLocation="CoXFeedChart.uml" />
-          </dependency>
-        </suppliersInternal>
         <ownedAttributesInternal>
           <property
             Id="6268d98d-5393-4740-93f9-87837536ee53"
@@ -454,6 +445,15 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="63f7264d-cfd7-4363-85e9-7e1fabc52c9d">
+            <classMoniker
+              Id="4ff501cb-bfb6-4d7b-a1c6-c9d6ef3618ce"
+              LastKnownName="LogEventInit"
+              LastKnownLocation="CoXFeedChart.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedAttributesInternal>
           <property
             Id="a6234c01-3088-47f0-b38b-2f6803653044"

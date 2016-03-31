@@ -1,15 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="8ff232b7-5237-4405-9141-d309179f3cdc" name="Log" linkedPackageId="47ebc389-7dbb-46bb-8661-359005e0ff0f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8ff232b7-5237-4405-9141-d309179f3cdc" name="Log" linkedPackageId="47ebc389-7dbb-46bb-8661-359005e0ff0f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="43fe40ed-0d09-4a6c-a3bf-345cb2e79104" name="LogEventInit" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="4ff501cb-bfb6-4d7b-a1c6-c9d6ef3618ce" />
-        <suppliersInternal>
-          <dependency Id="b8b8fbd1-69e7-49f9-a6bc-c04d8a4a0a34">
-            <classMoniker Id="2d059584-6f73-4f80-9343-c4515fa042b4" LastKnownName="Log" />
-            <elementDefinition Id="91125069-8f22-4209-a8a8-61d80a85a002" />
-          </dependency>
-        </suppliersInternal>
         <ownedAttributesInternal>
           <property Id="5ae006c6-87b5-42b9-86d5-3c6a5031e088" name="TenantToken" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="6268d98d-5393-4740-93f9-87837536ee53" />
@@ -50,6 +44,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="2d059584-6f73-4f80-9343-c4515fa042b4" name="Log" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3c127b8c-f172-4339-bd24-9e7c80bc1f74" />
+        <suppliersInternal>
+          <dependency Id="e4efa049-55ba-40ae-8b4c-2c2b61c5f988">
+            <classMoniker Id="43fe40ed-0d09-4a6c-a3bf-345cb2e79104" LastKnownName="LogEventInit" />
+            <elementDefinition Id="63f7264d-cfd7-4363-85e9-7e1fabc52c9d" />
+          </dependency>
+        </suppliersInternal>
         <ownedAttributesInternal>
           <property Id="96e78180-441b-47da-99e4-c15053d3ae69" name="EventName" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a6234c01-3088-47f0-b38b-2f6803653044" />

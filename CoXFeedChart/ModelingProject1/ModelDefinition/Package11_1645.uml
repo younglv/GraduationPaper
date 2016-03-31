@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3584a53c-ffbb-4092-9b49-96996075fccf"
+  name="Model"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="6f98d5e9-34a1-4f94-adb6-0aee94e2c28a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="bc34da50-d156-4c81-960e-4b90986ac6a2">
+      <profileInstance
+        Id="01b20f88-114d-4469-9d7b-72f2290a07ad"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="60ca0461-2fe6-466e-bdfc-c766d4961f62"
+        name="DeviceInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1a55c1e4-bb14-462b-aece-c182b28b99f7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDeviceInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8a291e1b-7c70-4394-b862-d6d22763509d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="735f8b3f-83be-4fe9-952e-f65ec848d347">
+                <propertyInstance
+                  Id="4e5a00b9-17f7-446a-b350-228f4deea447"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="492d7fed-53a7-4694-a3e3-3b3f3cc35380">
+                <propertyInstance
+                  Id="868a45f6-6fe2-47e4-b321-025c442e16b2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28daa18c-ad8f-48e3-bcf5-d21780fdc9c9">
+                <propertyInstance
+                  Id="1b69caf6-01fe-474f-8561-0576a7200221"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a6ca112-c1a9-4303-b8b1-50e0ae4035cc">
+                <propertyInstance
+                  Id="a2ae0dae-6ec6-4e39-bc3e-eff2946f5326"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da824a46-0bc0-4865-b52b-26122cf5e701">
+                <propertyInstance
+                  Id="76d18af0-a398-443f-acf2-ef75e6f67750"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="82176397-125e-4f14-82b7-f57958b76f8c"
+        name="DeviceMetric"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2e4de0cb-1729-4a50-991e-d57fa4559113"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDeviceMetric"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="92d0265f-b676-4d49-a7ab-25025544bd63"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee5e502a-02b9-47dd-87a1-c85c1ca8595d">
+                <propertyInstance
+                  Id="da9af36c-976b-4d83-9583-3f1b1a3d5efd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="773cf2d9-7c5d-4657-b3cc-09d4edeec6fe">
+                <propertyInstance
+                  Id="919b1a86-1745-40d1-b5ab-59fb7d74edfb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0180c3f6-9bbb-4923-8ea8-6853f02022b3">
+                <propertyInstance
+                  Id="cc1513b9-6c5e-4606-b3d8-7761d5b1e321"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44681c9e-3de3-436a-ab9f-6165e429876e">
+                <propertyInstance
+                  Id="54d3a332-b477-4a54-a1de-1ef922f5d1f0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86cce061-59f8-47dc-8adf-2a00b88110c7">
+                <propertyInstance
+                  Id="7201aae6-5123-4ea2-8309-033df414e674"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="468bdcee-10e9-4532-ade2-22ffb232d93e"
+        name="DeviceMetricData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7defb34d-77eb-4e61-8cbc-61d0e8b09d6c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDeviceMetricData"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="540aea62-053c-401a-a59b-1bd91af77b1a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d3580820-3263-43d6-8442-a5a97fb9a5ca">
+                <propertyInstance
+                  Id="b0170372-e579-4691-914f-ce37d90e66a7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25d9e2dd-96f9-4835-a4f8-e0ce4fabf93a">
+                <propertyInstance
+                  Id="0eea4464-3e2d-4e77-9206-63b487c3b98d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7844f5b8-9721-4ad9-b2ed-7ba8c2a0e4ec">
+                <propertyInstance
+                  Id="34a61a32-fe76-4722-b031-d5f028541945"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec10933e-4948-4358-8bfb-957eae9535e3">
+                <propertyInstance
+                  Id="3f211e42-2282-4c65-8ba7-0ef193ead781"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0caeeccc-803a-4b2d-af49-25aee8516564">
+                <propertyInstance
+                  Id="9dfd88fd-090a-4d6c-9ad3-ddbf748e08ef"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b09e3277-96f7-4268-b54c-56c425e04a6e"
+        name="DeviceMemory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fec7d90e-b97f-4703-ab70-3b3acb1b8f60"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDeviceMemory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d46a4376-6c49-498c-ab17-5c465c0d33ad"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="266dc240-b892-4faa-84d0-787633fb6e4f">
+                <propertyInstance
+                  Id="7cc96401-a169-4259-9f3e-96f1d9c40f5a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8aaa6060-d44a-4403-bade-ed97d0c72792">
+                <propertyInstance
+                  Id="a343df26-8c60-4906-b906-9e9b05a67126"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="715aedc8-3a90-456f-ba7e-a1e8702d3ae0">
+                <propertyInstance
+                  Id="fa7041a4-1f60-42ee-81d9-b072f30bcc06"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4491a934-6b46-4a60-80f4-245b512c81e2">
+                <propertyInstance
+                  Id="db0987d0-e114-42dd-b864-bc7d50a2bc4d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47f5662e-d8ec-48ad-8f0a-4797fa5db80d">
+                <propertyInstance
+                  Id="35f6b460-5ff3-4b7a-aab0-328bef4c208d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4f6ef4dd-b2d8-4634-b997-4b6fa4639e5f"
+        name="DeviceNetwork"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a29b8226-5b43-497e-b011-d68f28dc19d9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDeviceNetwork"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9fb13aaf-6010-4aa2-a136-5d074f49b05d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dae20ba3-7b01-4a35-9f4a-728482a05799">
+                <propertyInstance
+                  Id="ca36ba60-d7b5-4026-b95d-2a0f865d882a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dd17a54-41ce-4e4e-a7c4-052a4fba609b">
+                <propertyInstance
+                  Id="e79998bc-b2c0-4bc5-9760-5629b985dae6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27114a45-43f7-4e6d-83a6-4e87742b86ed">
+                <propertyInstance
+                  Id="c06685b9-abe8-4b5f-a371-60f0b2e9eb46"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83439b38-61d5-4d72-b9ad-8316f4932d70">
+                <propertyInstance
+                  Id="1b6151c4-b85f-414b-a96f-3d8daf518bef"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8178934f-5ad2-4a12-8a43-6b273e1c9126">
+                <propertyInstance
+                  Id="e6f33cc8-a1ea-4acd-9dd3-1290e9eeff0d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9058b0cf-becb-4984-933e-59b44968e4cd"
+        name="DiagnosisInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1905735d-5dac-41ca-847a-841aca4723ef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DDiagnosisInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="10369cd3-671e-4c60-952f-d0a333832c74"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5359390d-37a6-4762-9f11-56b587ffc7d2">
+                <propertyInstance
+                  Id="d5ba4044-efb8-4c31-810b-d72b4190887d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57709ea7-4b0c-4844-9c6a-ea80a0ff43a5">
+                <propertyInstance
+                  Id="c1e66fc7-2785-42eb-9dfb-43a582025ba7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5eea5c8a-4ab0-4459-b69a-1554f8d3c89c">
+                <propertyInstance
+                  Id="793a6da7-252d-4264-b26f-dc0f85e86ed9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e275ac5-4fe8-4b35-b6af-bf0521ba612c">
+                <propertyInstance
+                  Id="0fea678a-2462-4e37-99c4-ccd783205090"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d7a0104-ff22-4179-b144-369057fc121f">
+                <propertyInstance
+                  Id="eec96088-e607-4d2a-8f78-bbded4a7a132"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9d7696e8-f704-4ab3-9ae9-475ae81ac27d"
+        name="VoiceWakeup"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5ce42eb4-6680-4ffc-82da-76960f358e94"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DVoiceWakeup"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="05ddf614-58c4-447e-8f54-a8b99833e08e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b04c677-3b88-45ca-9efd-c516b3aba779">
+                <propertyInstance
+                  Id="fcb382ec-00f6-4559-bb5e-2d0c13846989"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47a7b69b-38eb-4dcb-b438-7b556ce03896">
+                <propertyInstance
+                  Id="d5590235-dbc3-4e50-b37c-c18831a9eb1f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd771cf0-c780-425d-9b1c-48bc22837448">
+                <propertyInstance
+                  Id="ffb4eca7-c884-4b73-8574-2174e47afcc2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fa0b31d-8003-46b3-86ef-7fddac1d0387">
+                <propertyInstance
+                  Id="da77133c-3120-4ec2-a565-68cd16a0aa68"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d0a5cd8-bfc6-4645-9082-5d4c9bbf5630">
+                <propertyInstance
+                  Id="da619639-2001-49af-9eed-ed4cd3a637e3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f94293dd-bb31-47dc-8e9d-5f33ddbcff0b"
+        name="GrowthHackSearchCondition"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="47c9cd33-44ed-4f1a-a06e-42c444d54492"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DGrowthHackSearchCondition"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3e4b3e65-aace-4c0a-95a6-a8bb8139eb99"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42072ae5-0497-415d-ac60-1d2332b74543">
+                <propertyInstance
+                  Id="d24d1567-30a0-4223-8d35-19e9337fc190"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ab4a9a4-924c-4f91-b9b4-d7caaa88cca6">
+                <propertyInstance
+                  Id="3b570455-8dd9-4249-945e-dfa25e3ab237"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00a7e73b-f1cf-46bf-8694-4409022f8c09">
+                <propertyInstance
+                  Id="f1d46d84-7fa8-4f9c-8f47-e95b95101efd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccc06967-a045-4245-b1b2-f6b61dfea1f9">
+                <propertyInstance
+                  Id="277599b6-6556-438b-833d-49c4d35e7e98"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22ce9fb0-79af-4a10-926f-7cd9654422cc">
+                <propertyInstance
+                  Id="3a8f3573-8839-481b-8b13-879d02377254"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b5c85a32-8b4d-4085-bc50-eccfc5ebf2bc"
+        name="LabelStyle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="68ca7815-e61e-4cf3-ad23-d3f2614f5371"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fv-yanlv%2FDesktop%2FCrossMetric%2FModel%2Fbin%2FDebug%2FModel.dll Namespace%3DModel Type%3DLabelStyle"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bcc6e265-edfa-44a5-9a96-8ad435287ce0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c4f9fbd-ed4f-409e-a368-8622ec2be658">
+                <propertyInstance
+                  Id="a0fb9d99-6a07-4da9-95ba-e1798fdd7160"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5c72b63-c706-4f09-88f3-0136ab2b4a5e">
+                <propertyInstance
+                  Id="75411233-dc03-4a73-9863-bef5cdc8856b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1e6eebc-9977-4d7f-9881-40c949819b13">
+                <propertyInstance
+                  Id="e4a0bec4-0473-499c-827d-bd931ea478e7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa67ddf2-68cf-46ea-a3de-d31437e4b7d8">
+                <propertyInstance
+                  Id="c944ced5-9e66-4a72-a264-eb02513d7418"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2cbb8f14-574d-4e69-8a89-e697ce052aa2">
+                <propertyInstance
+                  Id="3cd99636-3d15-4ef2-a48c-a97e130ab948"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

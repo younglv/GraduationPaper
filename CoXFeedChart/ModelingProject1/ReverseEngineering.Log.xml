@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-03-31T17:15:23" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty' -  (Class)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::axisXMaximum' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::AxisXMaximum' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::axisYMaximum' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::AxisYMaximum' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::ChartProperty' -  (Operation)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::collapsiblespacethreshold' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::CollapsibleSpaceThreshold' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::enable3D' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::Enable3D' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::isscale' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::IsScale' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::isshowWithcircle' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::IsShowWithCircle' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::isstaggered' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::IsStaggered' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::isvalueshownaslabel' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::IsValueShownAsLabel' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::isvisibleinlegend' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::IsVisibleInLegend' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::labelstyle' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::LabelStyle' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::lable' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::Lable' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::pixelpointwidth' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::PixelPointWidth' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::seriescharttype' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::SeriesChartType' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::Title1' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::Title2' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::tooltip' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::ToolTip' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::xinterval' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::XInterval' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::ChartProperty::XValueType' -  (Property)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Model::LabelStyle' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web::UI' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web::UI::DataVisualization' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web::UI::DataVisualization::Charting' -  (Package)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web::UI::DataVisualization::Charting::ChartValueType' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Web::UI::DataVisualization::Charting::SeriesChartType' -  (Enumeration)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Model::ChartProperty to ModelingProject1::Model::LabelStyle (Association)" />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-03-31T17:15:29" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

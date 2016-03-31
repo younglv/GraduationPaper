@@ -1,5 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="d7e795e8-b0a4-4015-ba14-c1ed73d48624" name="UMLClassDiagram1" linkedPackageId="ad3a4ec6-f66e-4a8d-8f52-c85a5f63f3b4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="985f42d2-5b0b-4880-9eb7-fd6f1083654e">
+      <profileInstance Id="1a168919-c313-4b2b-a93d-37902c760103" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8b14e2db-822c-4c00-b59d-6a2cb6bc42f0">
+      <profileInstance Id="de14d4a7-af74-4dbe-b103-7cce6f466afb" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="b732c0c2-d391-4371-a3e8-3f59b6f200f1" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
@@ -135,12 +149,6 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="1dc1c8dc-653f-4d38-8b8f-33370cf02edc" />
-              <suppliersInternal>
-                <dependency Id="e88f79f3-2738-405e-952c-f1c23f2f4131">
-                  <classMoniker Id="e9ed31be-6322-4909-b062-c9cf1fe1cfe4" LastKnownName="StoreScopeHelper" />
-                  <elementDefinition Id="b9c6b207-1337-4a55-8e30-1c808bf3b555" />
-                </dependency>
-              </suppliersInternal>
               <ownedAttributesInternal>
                 <property Id="73313410-4f7b-431f-9923-7f5bfe5eaac5" name="FileName" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <referencesInternal>
@@ -664,9 +672,9 @@
               </appliedStereotypesInternal>
               <elementDefinition Id="45cb7fa7-1307-4733-a0eb-53e919c24540" />
               <suppliersInternal>
-                <dependency Id="aca39d61-c83d-4ebc-9f4f-f83bb7fbcc47">
-                  <classMoniker Id="e9ed31be-6322-4909-b062-c9cf1fe1cfe4" LastKnownName="StoreScopeHelper" />
-                  <elementDefinition Id="103ba89d-61f0-4e1b-8933-6d23eb84b7be" />
+                <dependency Id="727520d3-183f-43fe-b338-33df98c4c795">
+                  <classMoniker Id="c9b82249-3ed0-4c1c-8356-19a3bfd78249" LastKnownName="StoreXMLHelper" />
+                  <elementDefinition Id="3f24d576-af47-4699-aa5d-cb238e149a21" />
                 </dependency>
               </suppliersInternal>
               <ownedAttributesInternal>
@@ -1725,6 +1733,12 @@
                   <elementDefinition Id="fb6338bd-2c41-41c1-ac30-087dcac66c4a" />
                 </dependency>
               </suppliersInternal>
+              <generalsInternal>
+                <generalization Id="81c3258c-1490-495d-8c66-4a8cdf4e9485" isSubstitutable="false">
+                  <classMoniker Id="13cf9e75-fa88-420b-9388-1450036e7a66" LastKnownName="System.Windows.Forms.Form" />
+                  <elementDefinition Id="c3d979cb-84fd-4c57-b4b3-0721dcabbd97" />
+                </generalization>
+              </generalsInternal>
               <ownedAttributesInternal>
                 <property Id="b7a7562e-8a2a-4a53-becc-b0574886fe80" name="xmlHelper" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <referencesInternal>
@@ -3337,9 +3351,9 @@
               </appliedStereotypesInternal>
               <elementDefinition Id="9a9226eb-2e74-445b-9b02-3204732b11b5" />
               <suppliersInternal>
-                <dependency Id="a74896d0-29d6-482a-84d0-1f445978c3f9">
-                  <classMoniker Id="e9ed31be-6322-4909-b062-c9cf1fe1cfe4" LastKnownName="StoreScopeHelper" />
-                  <elementDefinition Id="f614a4bb-29a2-4e23-a951-a080aef076b0" />
+                <dependency Id="eeb134f8-3469-4731-9604-6affa7f5dab3">
+                  <classMoniker Id="c9b82249-3ed0-4c1c-8356-19a3bfd78249" LastKnownName="StoreXMLHelper" />
+                  <elementDefinition Id="46339599-2096-44bc-abf5-8232d2dac252" />
                 </dependency>
               </suppliersInternal>
               <ownedAttributesInternal>
@@ -4512,12 +4526,6 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="f284eb5a-b62c-433d-943f-5be443fec318" />
-              <suppliersInternal>
-                <dependency Id="7aff2977-15c0-43bf-b7fb-d4e775014d96">
-                  <classMoniker Id="e9ed31be-6322-4909-b062-c9cf1fe1cfe4" LastKnownName="StoreScopeHelper" />
-                  <elementDefinition Id="4a3841d4-74ca-4108-97d6-bfc0ef7a6164" />
-                </dependency>
-              </suppliersInternal>
               <ownedAttributesInternal>
                 <property Id="94fe83c7-d79c-483e-8230-ad79c02c7ca0" name="ScopeSDKDirectory" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <referencesInternal>
@@ -4999,12 +5007,6 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="0e23fd4b-3012-4dd9-8b67-f2bbf8607cc9" />
-              <suppliersInternal>
-                <dependency Id="2f9de808-330f-4d9f-9af0-c761445a8efc">
-                  <classMoniker Id="e9ed31be-6322-4909-b062-c9cf1fe1cfe4" LastKnownName="StoreScopeHelper" />
-                  <elementDefinition Id="4db8e25a-2c53-4d5a-af13-d6bcb7afabd6" />
-                </dependency>
-              </suppliersInternal>
               <ownedOperationsInternal>
                 <operation Id="f111b0c1-967c-4b61-8fd1-f343bd810e45" name="Execute" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <referencesInternal>
@@ -5708,20 +5710,6 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="433a11b7-e766-460a-b359-6281aca98477" />
-              <suppliersInternal>
-                <dependency Id="94b81860-4f82-4971-bd7a-2000b4be06ee">
-                  <classMoniker Id="caf4cc5f-0b1c-411f-9938-7ef12ab3f04e" LastKnownName="ImportTask" />
-                  <elementDefinition Id="d2030eed-7e69-492e-966d-7b4f0d8d762f" />
-                </dependency>
-                <dependency Id="1e83b3c1-bffa-460a-a1be-35dc9224a135">
-                  <classMoniker Id="7bcdf247-2cfc-4460-8dba-b70bf15a50fc" LastKnownName="SubmitTask" />
-                  <elementDefinition Id="a84521b8-c055-41e0-9a63-ab8fe3548c78" />
-                </dependency>
-                <dependency Id="c2a91b60-22fb-4acf-a036-a489970c6958">
-                  <classMoniker Id="c665ac68-3e4b-4912-882f-9fcdfdd95a02" LastKnownName="CopyAndImport" />
-                  <elementDefinition Id="8e8fa14c-48a7-4f63-8618-5bb4e6c04c58" />
-                </dependency>
-              </suppliersInternal>
               <ownedOperationsInternal>
                 <operation Id="f448f2bd-266c-4f51-8458-06aadd8fe5b1" name="GetSubmitListFromXML" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <referencesInternal>
@@ -6184,6 +6172,28 @@
                 </stereotypeInstance>
               </appliedStereotypesInternal>
               <elementDefinition Id="3b667e83-889e-4073-856c-914478adbec4" />
+              <suppliersInternal>
+                <dependency Id="6df5abc7-8dee-447a-b003-d776ba277cc1">
+                  <classMoniker Id="352c6b5a-862d-41dd-bd2a-44d39c82523a" LastKnownName="CommandAreaLibrary" />
+                  <elementDefinition Id="44b0ba82-f314-42cf-b42a-845c3f451cb5" />
+                </dependency>
+                <dependency Id="6b645e00-6005-4d75-a9a4-43d7c0d8cd74">
+                  <classMoniker Id="de1898a2-92af-4a5a-9182-58db7a94a7d7" LastKnownName="StoreConstant" />
+                  <elementDefinition Id="e3ffece9-7a50-4c8b-aa84-7a98e3014583" />
+                </dependency>
+                <dependency Id="5bc4a058-182a-4814-bc24-3cb368af5352">
+                  <classMoniker Id="c665ac68-3e4b-4912-882f-9fcdfdd95a02" LastKnownName="CopyAndImport" />
+                  <elementDefinition Id="4e59631f-48e3-47ea-87c3-8a5dfb7b19b0" />
+                </dependency>
+                <dependency Id="d923b473-489e-4c22-b612-f64e7f87eac9">
+                  <classMoniker Id="caf4cc5f-0b1c-411f-9938-7ef12ab3f04e" LastKnownName="ImportTask" />
+                  <elementDefinition Id="cf48da1e-b8ae-4824-8b7d-081b942267ef" />
+                </dependency>
+                <dependency Id="85154693-0cbc-4122-ba04-939d27e882bc">
+                  <classMoniker Id="7bcdf247-2cfc-4460-8dba-b70bf15a50fc" LastKnownName="SubmitTask" />
+                  <elementDefinition Id="df7f9d53-cb8d-4fe2-a45f-d27ddd67b91b" />
+                </dependency>
+              </suppliersInternal>
               <ownedOperationsInternal>
                 <operation Id="2666e94d-6a5c-4926-bff9-affcb97c9f83" name="CheckExistsOnCosmos" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
                   <referencesInternal>
@@ -6615,14 +6625,8 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="1027044b-52e9-4fa1-8d68-18f271cb8655" name="System.Windows.Forms.Form" isAbstract="false" isLeaf="false" isActiveClass="false">
-              <elementDefinition Id="135f55bd-c3b7-438e-b200-6068740cff59" />
-              <generalsInternal>
-                <generalization Id="eafac822-cb10-4f32-8161-325ec70086e2" isSubstitutable="false">
-                  <classMoniker Id="9d2df6b6-4a22-4c11-a59d-d266d708375d" LastKnownName="Form1" />
-                  <elementDefinition Id="5e13f75a-100d-4aad-86e3-380f77b836ee" />
-                </generalization>
-              </generalsInternal>
+            <class Id="13cf9e75-fa88-420b-9388-1450036e7a66" name="System.Windows.Forms.Form" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d20867c2-59b0-4a02-8f36-6e60100b8fe5" />
             </class>
           </packageHasNamedElement>
         </packagedElements>

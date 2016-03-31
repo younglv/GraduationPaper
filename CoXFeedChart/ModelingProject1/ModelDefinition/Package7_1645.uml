@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="042db17d-2fc2-435a-b9d4-0fc561802651"
+  name="Charting"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="45aa0672-b538-4905-bfe3-f51feb6ffc28"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.UI.DataVisualization.Charting"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="48f9e179-4432-4552-88b8-07a83c3db260">
+      <profileInstance
+        Id="8f170ebd-cf53-4f2d-8e01-eca8cbf7cf97"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="55169372-267c-469a-a72f-2e5ce53b552a"
+        name="Chart"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a82d3acc-998d-447b-b1c5-a8cb89c7a249"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.DataVisualization.dll&quot; Namespace%3DSystem.Web.UI.DataVisualization.Charting Type%3DChart"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e865a031-6588-4687-8cab-bf1d33003673"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b83de806-e166-4bb1-bd72-825c4b510b77">
+                <propertyInstance
+                  Id="000b88d6-1595-4b72-8636-e449d6036096"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c07e006-e3ae-4d8a-9b36-6ea0273a94e1">
+                <propertyInstance
+                  Id="1e66b101-9995-4541-8736-6cb64475e278"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a48486d3-26f9-4161-822a-5439b8fd1243">
+                <propertyInstance
+                  Id="f49a85b0-8c6d-4fbf-b4e5-284fa9f46bbc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d40099a-63ef-4856-b82e-09cb03b5b9ad">
+                <propertyInstance
+                  Id="4ca38a72-d3e4-4bf4-93a1-3dff3331d451"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7c4bd7e-bc17-4de6-8a69-3d66e1ee17fa">
+                <propertyInstance
+                  Id="9d2a048e-48bc-42d1-8022-2e6c2d892db8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="aa4d9613-4bc1-440f-9498-3d77b976d296"
+        name="SeriesChartType"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="2ce87f59-6c82-4f92-b94e-f17ed7c7f218"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.DataVisualization.dll&quot; Namespace%3DSystem.Web.UI.DataVisualization.Charting Type%3DSeriesChartType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1d93b704-6e25-46af-afd8-68e9a3a305b7"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03e395ac-2216-44b5-8210-cf0ce409650f">
+                <propertyInstance
+                  Id="f97d0298-62a7-42f1-8eb4-45e898d3fe10"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d1b62a6-6ac0-4d4f-8204-eb4508332b70">
+                <propertyInstance
+                  Id="08fec109-cdc5-4907-8d71-e45892f148bd"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42948174-c8a3-49b4-9f65-3a73de987871">
+                <propertyInstance
+                  Id="bb507586-82e8-4d13-9ab5-e1f0c7cebbd3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="765e51f2-3c7f-40c3-9bdc-9931b676b861"
+        name="ChartValueType"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="91bd8a1b-97f9-4388-a752-d662bf30c5f1"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.DataVisualization.dll&quot; Namespace%3DSystem.Web.UI.DataVisualization.Charting Type%3DChartValueType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="71812067-55c4-4e98-a898-7bd83c57e8da"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d20a26c-8446-4c9d-862f-2f7a11ee1221">
+                <propertyInstance
+                  Id="58150e0b-ed72-42b5-a121-43e9ede26501"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd9f15e9-6c80-4fd5-997d-ff17b253938a">
+                <propertyInstance
+                  Id="80bcdb25-205d-4200-a798-72852b81bb14"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2b92ae3-b42f-423a-9edc-b22d28e806f3">
+                <propertyInstance
+                  Id="e8ad9355-999f-4fa2-83c6-7ab46d039cb1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
