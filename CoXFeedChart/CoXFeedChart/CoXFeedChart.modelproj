@@ -25,6 +25,13 @@
     <Content Include="ModelDefinition\Package_1710.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Overall Struct.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Overall Struct.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Overall Struct.activitydiagram</DependentUpon>
+    </Content>
     <Content Include="ReverseEngineering.Log.xml">
       <SubType>Content</SubType>
     </Content>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="263c0216-56a7-45c8-a6b3-f43853c9a6d3" name="Overall Struct" linkedPackageId="82a3ae49-6dd4-4f46-905d-2755adb856ea" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="e045c3f4-fa3d-4713-8ff2-330fd1f0ba86">
+      <elementDefinition Id="41af7c77-9fff-4fa7-9b14-1b75173e2741" />
+      <body>客户端产生日志</body>
+    </comment>
+    <comment Id="a88bc264-0b36-4768-a9dc-57deefbcaa05">
+      <elementDefinition Id="b567101c-cfee-4269-a51d-d6e4bf3aa292" />
+      <body>将计算数据导入数据库</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="39b3c832-0b8b-4d0e-b9ba-da0b4e192804">
+      <profileInstance Id="0f0ab6b3-b6f7-4d3d-b67e-4cd054b8e817" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ca1ac524-f802-4013-ae0c-ef020890d43b">
+      <profileInstance Id="170645ec-b9a0-414e-8060-d6edac4c7c30" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="ae72bdb9-512a-4891-9e85-a77c5d5dcec0" name="Overall Struct" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="99e261a7-b058-4fef-aa98-1634c536ffa0" />
+        <nodes>
+          <initialNode Id="ebf464f3-ee6b-49cc-bb09-beca36e2a71e" name="Initial1" isLeaf="false">
+            <elementDefinition Id="fb62658c-5bdf-49c6-9599-1e6137efa3dc" />
+            <flowNodeTargets>
+              <controlFlow Id="a974157d-694d-43a4-8292-738d2c541f9b" isLeaf="false">
+                <opaqueActionMoniker Id="4424f24c-eff5-4b00-a3be-1c1b4285451b" LastKnownName=" Cosmos分布式文件&#xD;&#xA;系统存储日志" />
+                <elementDefinition Id="9242316a-2504-4f00-be7c-6c136a4180ef" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="4424f24c-eff5-4b00-a3be-1c1b4285451b" name=" Cosmos分布式文件&#xD;&#xA;系统存储日志" isLeaf="false">
+            <elementDefinition Id="57f4972e-b7ff-4075-a659-4bf555ed7238" />
+            <flowNodeTargets>
+              <controlFlow Id="0a35562c-72a7-40cc-a19d-3b06804506f4" isLeaf="false">
+                <forkNodeMoniker Id="08aaf208-f6d5-4c52-8195-fe25ead7e7fa" LastKnownName="Fork1" />
+                <elementDefinition Id="01262ab1-1821-452c-8f02-7b12da11c22e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="08aaf208-f6d5-4c52-8195-fe25ead7e7fa" name="Fork1" isLeaf="false">
+            <elementDefinition Id="9ecd952c-dc87-451f-930c-404ed50dd332" />
+            <flowNodeTargets>
+              <controlFlow Id="b72b3ff9-4eda-426a-ac6c-2dc40357eef8" isLeaf="false">
+                <opaqueActionMoniker Id="8e48458f-9692-4cc6-8337-cd397202cfb5" LastKnownName="Scope脚本计算成功率" />
+                <elementDefinition Id="41877380-a36c-4903-89fd-95dd07474a40" />
+              </controlFlow>
+              <controlFlow Id="15331689-0ace-4331-8fe1-f8c05f827d2f" isLeaf="false">
+                <opaqueActionMoniker Id="ca2e5e88-77be-4129-b26a-02f317286348" LastKnownName="Scope脚本计算延迟时间" />
+                <elementDefinition Id="ced2584b-b244-40d6-af31-b61c02156abe" />
+              </controlFlow>
+              <controlFlow Id="6ec8fdc2-5801-47bb-b100-1d087770e665" isLeaf="false">
+                <opaqueActionMoniker Id="b1a9abb8-89de-499b-901e-40741ebe1426" LastKnownName="Scope脚本计算活跃用户量与次日存留率" />
+                <elementDefinition Id="5bc03ca1-215c-4c36-8250-399147d97a8e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="8e48458f-9692-4cc6-8337-cd397202cfb5" name="Scope脚本计算成功率" isLeaf="false">
+            <elementDefinition Id="7ffa5baf-43f8-46db-9122-ad195704be59" />
+            <flowNodeTargets>
+              <controlFlow Id="e4a74f4f-3059-46a9-b354-326018477e1c" isLeaf="false">
+                <joinNodeMoniker Id="cb571417-6af8-4cbd-ad06-ffeac61d9533" LastKnownName="Join1" />
+                <elementDefinition Id="3de6418c-d22c-431f-ab43-e6809d4e882b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ca2e5e88-77be-4129-b26a-02f317286348" name="Scope脚本计算延迟时间" isLeaf="false">
+            <elementDefinition Id="e2a936d7-5a07-45d8-860b-c973b2e371bb" />
+            <flowNodeTargets>
+              <controlFlow Id="287ff80d-d506-4e2f-86d7-9d467c34277e" isLeaf="false">
+                <joinNodeMoniker Id="cb571417-6af8-4cbd-ad06-ffeac61d9533" LastKnownName="Join1" />
+                <elementDefinition Id="5f893753-f8a6-4c33-9c8f-42ae7d36ca2b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b1a9abb8-89de-499b-901e-40741ebe1426" name="Scope脚本计算活跃用户量与次日存留率" isLeaf="false">
+            <elementDefinition Id="f58d2735-1180-4ceb-b78b-486483dfbdd4" />
+            <flowNodeTargets>
+              <controlFlow Id="35cc2cf2-67a6-4fdd-bac1-8213e4701669" isLeaf="false">
+                <joinNodeMoniker Id="cb571417-6af8-4cbd-ad06-ffeac61d9533" LastKnownName="Join1" />
+                <elementDefinition Id="b55f8d1b-be3a-4a4c-b233-83399cbf4dc3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode Id="cb571417-6af8-4cbd-ad06-ffeac61d9533" name="Join1" isLeaf="false">
+            <elementDefinition Id="b620c4e1-49a0-4b7d-b8b3-73f8a1951c98" />
+            <objectFlowTargets>
+              <objectFlow Id="a48a2ee4-5ea9-4254-b265-61bea07ae869" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <objectNodeMoniker Id="ddaf37d8-d8e0-4bec-aa91-aaaa0a69c34d" LastKnownName="数据库" />
+                <elementDefinition Id="e939038d-987e-427c-add6-0e33bf97529c" />
+              </objectFlow>
+            </objectFlowTargets>
+          </joinNode>
+          <objectNode Id="ddaf37d8-d8e0-4bec-aa91-aaaa0a69c34d" name="数据库" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="fba4cd01-4607-4493-97dc-a1218c58827b" />
+            <objectFlowTargets>
+              <objectFlow Id="06529cd1-9d5a-4855-8593-ebdaf1f68640" isLeaf="false" isMulticast="false" isMultireceive="false">
+                <opaqueActionMoniker Id="7fb796d0-c9a5-48d4-86e6-901651946cd0" LastKnownName="   网站&#xD;&#xA;展示数据" />
+                <elementDefinition Id="13adf23d-2d3a-44ad-9db5-96dc34c93378" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger Id="b60ee685-116a-4ce7-8d43-9d532f25e292" name="2147483647" value="2147483647">
+                <elementDefinition Id="6251dc30-e188-44ab-ba00-4556abd52373" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+          <opaqueAction Id="7fb796d0-c9a5-48d4-86e6-901651946cd0" name="   网站&#xD;&#xA;展示数据" isLeaf="false">
+            <elementDefinition Id="2101d9f9-2371-47c5-8ef8-342045c150fc" />
+            <flowNodeTargets>
+              <controlFlow Id="cc7426ba-ca57-4a68-9957-26abfdbbd0c8" isLeaf="false">
+                <activityFinalNodeMoniker Id="0441c4ab-6bf6-47bd-ad40-4ec552e166fe" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="b92465a2-6044-4c39-835b-8609136a9253" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="0441c4ab-6bf6-47bd-ad40-4ec552e166fe" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="9e573dc8-7062-42bd-886a-6a463132ee3b" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="82a3ae49-6dd4-4f46-905d-2755adb856ea" name="CoXFeedChart">
+    <elementDefinition Id="c6f549fc-18a7-403c-b62a-a00b22535e61" />
+  </package>
+</activityRootModel>

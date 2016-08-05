@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10" name="Overall Struct">
+  <activityRootModelMoniker Id="263c0216-56a7-45c8-a6b3-f43853c9a6d3" />
+  <nestedChildShapes>
+    <initialNodeShape Id="da177618-7521-49a3-b3cc-1775a910aa5d" absoluteBounds="4.375, 2.875, 0.125, 0.125" customColor="89, 89, 89">
+      <initialNodeMoniker Id="ebf464f3-ee6b-49cc-bb09-beca36e2a71e" LastKnownName="Initial1" />
+    </initialNodeShape>
+    <commentShape Id="962f1fde-83a0-4b0a-a830-eecbdec6fccf" absoluteBounds="3.875, 2.5, 1.25, 0.25" customColor="251, 247, 200">
+      <commentMoniker Id="e045c3f4-fa3d-4713-8ff2-330fd1f0ba86" />
+      <relativeChildShapes />
+    </commentShape>
+    <actionShape Id="c1d90b4c-9d51-4667-b945-8a365c66b18c" absoluteBounds="3.75, 3.625, 1.375, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="4424f24c-eff5-4b00-a3be-1c1b4285451b" LastKnownName=" Cosmos分布式文件&#xD;&#xA;系统存储日志" />
+    </actionShape>
+    <forkNodeShape Id="09b18393-4229-4af2-aa9a-cd48d03c27bd" absoluteBounds="3.75, 4.75, 1.375, 0.125" customColor="32, 32, 32">
+      <forkNodeMoniker Id="08aaf208-f6d5-4c52-8195-fe25ead7e7fa" LastKnownName="Fork1" />
+      <relativeChildShapes />
+    </forkNodeShape>
+    <controlFlowConnector edgePoints="[(4.4375 : 4.125); (4.4375 : 4.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="0a35562c-72a7-40cc-a19d-3b06804506f4" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="c1d90b4c-9d51-4667-b945-8a365c66b18c" />
+        <forkNodeShapeMoniker Id="09b18393-4229-4af2-aa9a-cd48d03c27bd" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="27511849-91a5-496e-ae9f-c1aff1e0ce6d" absoluteBounds="2.625, 5.5, 1.125, 0.375" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="8e48458f-9692-4cc6-8337-cd397202cfb5" LastKnownName="Scope脚本计算成功率" />
+    </actionShape>
+    <actionShape Id="c8dc117e-50d2-4030-924f-6661f19f9244" absoluteBounds="3.875, 5.5, 1.125, 0.375" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="ca2e5e88-77be-4129-b26a-02f317286348" LastKnownName="Scope脚本计算延迟时间" />
+    </actionShape>
+    <actionShape Id="d7bf4322-2fdb-47ea-be56-7c37d68a830a" absoluteBounds="5.25, 5.5, 1.125, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="b1a9abb8-89de-499b-901e-40741ebe1426" LastKnownName="Scope脚本计算活跃用户量与次日存留率" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(3.75 : 4.8125); (3.15625 : 4.8125); (3.15625 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="b72b3ff9-4eda-426a-ac6c-2dc40357eef8" />
+      <relativeChildShapes />
+      <nodes>
+        <forkNodeShapeMoniker Id="09b18393-4229-4af2-aa9a-cd48d03c27bd" />
+        <actionShapeMoniker Id="27511849-91a5-496e-ae9f-c1aff1e0ce6d" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(4.4375 : 4.875); (4.4375 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="15331689-0ace-4331-8fe1-f8c05f827d2f" />
+      <relativeChildShapes />
+      <nodes>
+        <forkNodeShapeMoniker Id="09b18393-4229-4af2-aa9a-cd48d03c27bd" />
+        <actionShapeMoniker Id="c8dc117e-50d2-4030-924f-6661f19f9244" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(5.125 : 4.8125); (5.8125 : 4.8125); (5.8125 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="6ec8fdc2-5801-47bb-b100-1d087770e665" />
+      <relativeChildShapes />
+      <nodes>
+        <forkNodeShapeMoniker Id="09b18393-4229-4af2-aa9a-cd48d03c27bd" />
+        <actionShapeMoniker Id="d7bf4322-2fdb-47ea-be56-7c37d68a830a" />
+      </nodes>
+    </controlFlowConnector>
+    <joinNodeShape Id="056f1bd6-5f02-4edd-9777-df8f5fddc94a" absoluteBounds="3.875, 6.5, 1.25, 0.125" customColor="32, 32, 32">
+      <joinNodeMoniker Id="cb571417-6af8-4cbd-ad06-ffeac61d9533" LastKnownName="Join1" />
+      <relativeChildShapes />
+    </joinNodeShape>
+    <controlFlowConnector edgePoints="[(3.1875 : 5.875); (3.1875 : 6.5625); (3.875 : 6.5625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="e4a74f4f-3059-46a9-b354-326018477e1c" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="27511849-91a5-496e-ae9f-c1aff1e0ce6d" />
+        <joinNodeShapeMoniker Id="056f1bd6-5f02-4edd-9777-df8f5fddc94a" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(4.4375 : 5.875); (4.4375 : 6.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="287ff80d-d506-4e2f-86d7-9d467c34277e" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="c8dc117e-50d2-4030-924f-6661f19f9244" />
+        <joinNodeShapeMoniker Id="056f1bd6-5f02-4edd-9777-df8f5fddc94a" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(5.8125 : 6); (5.8125 : 6.5625); (5.125 : 6.5625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="35cc2cf2-67a6-4fdd-bac1-8213e4701669" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="d7bf4322-2fdb-47ea-be56-7c37d68a830a" />
+        <joinNodeShapeMoniker Id="056f1bd6-5f02-4edd-9777-df8f5fddc94a" />
+      </nodes>
+    </controlFlowConnector>
+    <objectNodeShape Id="90df0e2c-00ae-452a-8814-f2683a50e40f" absoluteBounds="3.875, 7.375, 1.125, 0.375" customColor="White">
+      <objectNodeMoniker Id="ddaf37d8-d8e0-4bec-aa91-aaaa0a69c34d" LastKnownName="数据库" />
+    </objectNodeShape>
+    <objectFlowConnector edgePoints="[(4.4375 : 6.625); (4.4375 : 7.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <objectFlowMoniker Id="a48a2ee4-5ea9-4254-b265-61bea07ae869" />
+      <relativeChildShapes />
+      <nodes>
+        <joinNodeShapeMoniker Id="056f1bd6-5f02-4edd-9777-df8f5fddc94a" />
+        <objectNodeShapeMoniker Id="90df0e2c-00ae-452a-8814-f2683a50e40f" />
+      </nodes>
+    </objectFlowConnector>
+    <commentShape Id="d2b686b8-1124-486e-abd3-d1068fba4793" absoluteBounds="5.125, 6.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="a88bc264-0b36-4768-a9dc-57deefbcaa05" />
+      <relativeChildShapes />
+    </commentShape>
+    <actionShape Id="032e7900-7a50-4f63-8c9a-2e50b244809d" absoluteBounds="3.875, 8.375, 1.125, 0.375" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="7fb796d0-c9a5-48d4-86e6-901651946cd0" LastKnownName="   网站&#xD;&#xA;展示数据" />
+    </actionShape>
+    <activityFinalNodeShape Id="83435d8e-c1ab-4d89-b392-e58d43e9b70e" absoluteBounds="4.375, 9.5, 0.125, 0.125" customColor="89, 89, 89">
+      <activityFinalNodeMoniker Id="0441c4ab-6bf6-47bd-ad40-4ec552e166fe" LastKnownName="ActivityFinal1" />
+    </activityFinalNodeShape>
+    <objectFlowConnector edgePoints="[(4.4375 : 7.75); (4.4375 : 8.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <objectFlowMoniker Id="06529cd1-9d5a-4855-8593-ebdaf1f68640" />
+      <relativeChildShapes />
+      <nodes>
+        <objectNodeShapeMoniker Id="90df0e2c-00ae-452a-8814-f2683a50e40f" />
+        <actionShapeMoniker Id="032e7900-7a50-4f63-8c9a-2e50b244809d" />
+      </nodes>
+    </objectFlowConnector>
+    <controlFlowConnector edgePoints="[(4.44969314512601 : 8.75); (4.44969314512601 : 9.5012009199748)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="Black">
+      <controlFlowMoniker Id="cc7426ba-ca57-4a68-9957-26abfdbbd0c8" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="032e7900-7a50-4f63-8c9a-2e50b244809d" />
+        <activityFinalNodeShapeMoniker Id="83435d8e-c1ab-4d89-b392-e58d43e9b70e" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(4.4375 : 3); (4.4375 : 3.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="a974157d-694d-43a4-8292-738d2c541f9b" />
+      <relativeChildShapes />
+      <nodes>
+        <initialNodeShapeMoniker Id="da177618-7521-49a3-b3cc-1775a910aa5d" />
+        <actionShapeMoniker Id="c1d90b4c-9d51-4667-b945-8a365c66b18c" />
+      </nodes>
+    </controlFlowConnector>
+  </nestedChildShapes>
+</activityDiagram>

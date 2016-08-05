@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
   dslVersion="1.0.0.0"
   Id="c6f549fc-18a7-403c-b62a-a00b22535e61"
   name="CoXFeedChart" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="41af7c77-9fff-4fa7-9b14-1b75173e2741">
+      <body>客户端产生日志</body>
+    </comment>
+    <comment
+      Id="b567101c-cfee-4269-a51d-d6e4bf3aa292">
+      <body>将计算数据导入数据库</body>
+    </comment>
+  </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
       Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
@@ -663,6 +673,187 @@
         Id="e8c5afaf-8dc2-411f-a67b-46e8171eb9fd"
         LastKnownName="StoreTool"
         LastKnownLocation="Package_1710.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="99e261a7-b058-4fef-aa98-1634c536ffa0"
+        name="Overall Struct"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="fb62658c-5bdf-49c6-9599-1e6137efa3dc"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="9242316a-2504-4f00-be7c-6c136a4180ef"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="57f4972e-b7ff-4075-a659-4bf555ed7238"
+                  LastKnownName=" Cosmos分布式文件&#xD;&#xA;系统存储日志"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="57f4972e-b7ff-4075-a659-4bf555ed7238"
+            name=" Cosmos分布式文件&#xD;&#xA;系统存储日志"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="01262ab1-1821-452c-8f02-7b12da11c22e"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="9ecd952c-dc87-451f-930c-404ed50dd332"
+                  LastKnownName="Fork1"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode
+            Id="9ecd952c-dc87-451f-930c-404ed50dd332"
+            name="Fork1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="41877380-a36c-4903-89fd-95dd07474a40"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="7ffa5baf-43f8-46db-9122-ad195704be59"
+                  LastKnownName="Scope脚本计算成功率"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="ced2584b-b244-40d6-af31-b61c02156abe"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="e2a936d7-5a07-45d8-860b-c973b2e371bb"
+                  LastKnownName="Scope脚本计算延迟时间"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="5bc03ca1-215c-4c36-8250-399147d97a8e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f58d2735-1180-4ceb-b78b-486483dfbdd4"
+                  LastKnownName="Scope脚本计算活跃用户量与次日存留率"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction
+            Id="7ffa5baf-43f8-46db-9122-ad195704be59"
+            name="Scope脚本计算成功率"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3de6418c-d22c-431f-ab43-e6809d4e882b"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="b620c4e1-49a0-4b7d-b8b3-73f8a1951c98"
+                  LastKnownName="Join1"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="e2a936d7-5a07-45d8-860b-c973b2e371bb"
+            name="Scope脚本计算延迟时间"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5f893753-f8a6-4c33-9c8f-42ae7d36ca2b"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="b620c4e1-49a0-4b7d-b8b3-73f8a1951c98"
+                  LastKnownName="Join1"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="f58d2735-1180-4ceb-b78b-486483dfbdd4"
+            name="Scope脚本计算活跃用户量与次日存留率"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b55f8d1b-be3a-4a4c-b233-83399cbf4dc3"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="b620c4e1-49a0-4b7d-b8b3-73f8a1951c98"
+                  LastKnownName="Join1"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode
+            Id="b620c4e1-49a0-4b7d-b8b3-73f8a1951c98"
+            name="Join1"
+            isLeaf="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="e939038d-987e-427c-add6-0e33bf97529c"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <objectNodeMoniker
+                  Id="fba4cd01-4607-4493-97dc-a1218c58827b"
+                  LastKnownName="数据库"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+          </joinNode>
+          <objectNode
+            Id="fba4cd01-4607-4493-97dc-a1218c58827b"
+            name="数据库"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <objectFlowTargets>
+              <objectFlow
+                Id="13adf23d-2d3a-44ad-9db5-96dc34c93378"
+                isLeaf="false"
+                isMulticast="false"
+                isMultireceive="false">
+                <opaqueActionMoniker
+                  Id="2101d9f9-2371-47c5-8ef8-342045c150fc"
+                  LastKnownName="   网站&#xD;&#xA;展示数据"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </objectFlow>
+            </objectFlowTargets>
+            <upperBound>
+              <literalInteger
+                Id="6251dc30-e188-44ab-ba00-4556abd52373"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+          <opaqueAction
+            Id="2101d9f9-2371-47c5-8ef8-342045c150fc"
+            name="   网站&#xD;&#xA;展示数据"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b92465a2-6044-4c39-835b-8609136a9253"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="9e573dc8-7062-42bd-886a-6a463132ee3b"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="9e573dc8-7062-42bd-886a-6a463132ee3b"
+            name="ActivityFinal1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
