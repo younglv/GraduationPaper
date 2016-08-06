@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="c6f549fc-18a7-403c-b62a-a00b22535e61"
   name="CoXFeedChart" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -854,6 +854,344 @@
             isLeaf="false" />
         </nodes>
       </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="4a868dd1-c7e4-4278-8445-5063f283fb4e"
+        name="LogGet"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="2a2ff6ce-965f-4d25-ab77-104f2a2f3b60"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b6d8e096-e9ba-4bd1-b038-ff0117649fa9"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d71fe231-b8cc-458a-ac51-a2a6b07af3af"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="68e45784-982d-44ff-930d-4726633a58e2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="488983d9-ea54-4781-8020-85beedf30d5c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d71fe231-b8cc-458a-ac51-a2a6b07af3af"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8dcb649b-ed2b-46b1-9230-c7a93dda027f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9ab96365-a4d6-470e-968b-d2d9b9adc391"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="06394e8d-c0b8-4390-9984-bb760474a9a7"
+                LastKnownName="微软小娜客户端"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="68e45784-982d-44ff-930d-4726633a58e2"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="488983d9-ea54-4781-8020-85beedf30d5c"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d44597d1-dfa8-4be6-8f22-9900e9051eb8"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="06394e8d-c0b8-4390-9984-bb760474a9a7"
+                LastKnownName="微软小娜客户端"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b6d8e096-e9ba-4bd1-b038-ff0117649fa9"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8eb4cbf8-d8ef-4542-99b3-b978e2c12c27"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e86aba18-2008-4144-9ae1-80306db715a0"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d"
+                LastKnownName="Cosmos文件系统"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3aaf2fe1-a637-4f58-bfc9-d71293d3189a"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="98d1c80e-ec69-40bc-a8d8-6aebff86569d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0141b256-c3b4-4f0a-b60e-d17e2f5af7ed"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="98d1c80e-ec69-40bc-a8d8-6aebff86569d"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e24f3df3-fb17-4bb5-8bf4-5d3d1fc9a575"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d"
+                LastKnownName="Cosmos文件系统"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6c215cab-b7ca-40c8-90d6-8410d91b006b"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+                LastKnownName="Aria日志收集平台"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0141b256-c3b4-4f0a-b60e-d17e2f5af7ed"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d"
+                LastKnownName="Cosmos文件系统"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3aaf2fe1-a637-4f58-bfc9-d71293d3189a"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3b94ab0f-811b-433e-bf91-ea1ca2777043"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d"
+                LastKnownName="Cosmos文件系统"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="06394e8d-c0b8-4390-9984-bb760474a9a7"
+            name="微软小娜客户端"
+            isActor="false"
+            lifelineDisplayName="‎微软小娜客户端‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="9ab96365-a4d6-470e-968b-d2d9b9adc391"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d44597d1-dfa8-4be6-8f22-9900e9051eb8"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="eec28bf1-bd94-43b7-926c-66650f516b39"
+            name="Aria日志收集平台"
+            isActor="false"
+            lifelineDisplayName="‎Aria日志收集平台‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d71fe231-b8cc-458a-ac51-a2a6b07af3af"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b6d8e096-e9ba-4bd1-b038-ff0117649fa9"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6c215cab-b7ca-40c8-90d6-8410d91b006b"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d"
+            name="Cosmos文件系统"
+            isActor="false"
+            lifelineDisplayName="‎Cosmos文件系统‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="98d1c80e-ec69-40bc-a8d8-6aebff86569d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3aaf2fe1-a637-4f58-bfc9-d71293d3189a"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="af47cbe8-2ffd-44db-9913-b3272ff30d28"
+            name="发送日志"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9ab96365-a4d6-470e-968b-d2d9b9adc391"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="68e45784-982d-44ff-930d-4726633a58e2"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="20831b2a-86ce-4c53-8c52-34fec5d41147"
+            name="返回日志发送是否成功"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="488983d9-ea54-4781-8020-85beedf30d5c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d44597d1-dfa8-4be6-8f22-9900e9051eb8"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4ced0693-f757-4842-bf78-a4bb3b2bc77c"
+            name="经过分类后将日志保存在文件系统中"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6c215cab-b7ca-40c8-90d6-8410d91b006b"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0141b256-c3b4-4f0a-b60e-d17e2f5af7ed"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8dcb649b-ed2b-46b1-9230-c7a93dda027f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8eb4cbf8-d8ef-4542-99b3-b978e2c12c27"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e24f3df3-fb17-4bb5-8bf4-5d3d1fc9a575"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3b94ab0f-811b-433e-bf91-ea1ca2777043"
+        name="ExecutionEvent" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

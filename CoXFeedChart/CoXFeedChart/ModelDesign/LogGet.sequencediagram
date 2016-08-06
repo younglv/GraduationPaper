@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="2a84639f-82ee-42a6-8b5c-080799283066" name="LogGet" linkedPackageId="8dc3b794-680a-4f25-9ad1-f21629ffc6c1" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="5acfdb6c-a723-432f-b29a-fd156a368600">
+      <profileInstance Id="004390af-5419-4194-95f8-8367fa08eec6" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="fc1cc78d-549a-4251-a16e-d8c44d40ce53">
+      <profileInstance Id="495560aa-3520-4037-ab3c-413f296b1cc6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="3b94cb8e-ad39-443c-b913-0f4009d95aff" name="LogGet" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="4a868dd1-c7e4-4278-8445-5063f283fb4e" />
+        <fragments>
+          <behaviorExecutionSpecification Id="89e6072a-47ca-4649-989e-0bcf80a78050" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="2a2ff6ce-965f-4d25-ab77-104f2a2f3b60" />
+            <coveredLifelines>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2f88b8ad-72a7-4f77-8209-abef43165c5a" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="33d7f288-02a8-4862-bfbe-0e3627c8ac34" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="168dc64b-0b9c-4776-9258-3a4447d94407" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="11817461-dbb5-46e4-bd17-63deadb0da6f" LastKnownName="MessageOccurrenceSpecification3" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="33d7f288-02a8-4862-bfbe-0e3627c8ac34" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="d71fe231-b8cc-458a-ac51-a2a6b07af3af" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c668b7ec-8bc8-4f5d-a005-9fa837b23a06" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c3b417d6-e8b8-420f-ba08-07c753bc0db2" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="9ab96365-a4d6-470e-968b-d2d9b9adc391" />
+            <covered>
+              <lifelineMoniker Id="e5af4e87-7ee6-4f52-89ef-1da1dbb6fc5c" LastKnownName="微软小娜客户端" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="168dc64b-0b9c-4776-9258-3a4447d94407" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="68e45784-982d-44ff-930d-4726633a58e2" />
+            <covered>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="11817461-dbb5-46e4-bd17-63deadb0da6f" name="MessageOccurrenceSpecification3">
+            <elementDefinition Id="488983d9-ea54-4781-8020-85beedf30d5c" />
+            <covered>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ec34ca1e-0fc4-4c35-a399-ec60357c9c38" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="d44597d1-dfa8-4be6-8f22-9900e9051eb8" />
+            <covered>
+              <lifelineMoniker Id="e5af4e87-7ee6-4f52-89ef-1da1dbb6fc5c" LastKnownName="微软小娜客户端" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2f88b8ad-72a7-4f77-8209-abef43165c5a" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="b6d8e096-e9ba-4bd1-b038-ff0117649fa9" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="245eb9bb-ea61-445e-850d-22fb3bea986a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="605f8394-8c62-4d0f-bf10-2e895177a639" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="e86aba18-2008-4144-9ae1-80306db715a0" />
+            <coveredLifelines>
+              <lifelineMoniker Id="6c4df9d7-2a47-4171-9d86-e223d809c697" LastKnownName="Cosmos文件系统" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="250ebea5-d4aa-4a82-b0ab-90171b0361c2" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="98916c6d-0591-4c61-a7ee-c794c5ba86b8" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="554a41c8-2a4e-4735-a3be-d17822bc74c8" LastKnownName="MessageOccurrenceSpecification6" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="98916c6d-0591-4c61-a7ee-c794c5ba86b8" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="98d1c80e-ec69-40bc-a8d8-6aebff86569d" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8a72e7c0-cbfb-4fe7-8be2-e0b8fecc423f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6c4df9d7-2a47-4171-9d86-e223d809c697" LastKnownName="Cosmos文件系统" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c3a176af-3477-4433-a6de-2db1ad04f09a" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="6c215cab-b7ca-40c8-90d6-8410d91b006b" />
+            <covered>
+              <lifelineMoniker Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" LastKnownName="Aria日志收集平台" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="554a41c8-2a4e-4735-a3be-d17822bc74c8" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="0141b256-c3b4-4f0a-b60e-d17e2f5af7ed" />
+            <covered>
+              <lifelineMoniker Id="6c4df9d7-2a47-4171-9d86-e223d809c697" LastKnownName="Cosmos文件系统" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="250ebea5-d4aa-4a82-b0ab-90171b0361c2" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="3aaf2fe1-a637-4f58-bfc9-d71293d3189a" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="46c57d78-a567-4f27-b6d2-77bcfbdb6aab" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="6c4df9d7-2a47-4171-9d86-e223d809c697" LastKnownName="Cosmos文件系统" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="e5af4e87-7ee6-4f52-89ef-1da1dbb6fc5c" name="微软小娜客户端" isActor="false" lifelineDisplayName="‎微软小娜客户端‎">
+            <elementDefinition Id="06394e8d-c0b8-4390-9984-bb760474a9a7" />
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="c3b417d6-e8b8-420f-ba08-07c753bc0db2" LastKnownName="MessageOccurrenceSpecification1" />
+              <messageOccurrenceSpecificationMoniker Id="ec34ca1e-0fc4-4c35-a399-ec60357c9c38" LastKnownName="MessageOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="c052847d-f9a5-4ffa-a961-a4d52f3130f5" name="Aria日志收集平台" isActor="false" lifelineDisplayName="‎Aria日志收集平台‎">
+            <elementDefinition Id="eec28bf1-bd94-43b7-926c-66650f516b39" />
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="33d7f288-02a8-4862-bfbe-0e3627c8ac34" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="2f88b8ad-72a7-4f77-8209-abef43165c5a" LastKnownName="ExecutionOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="c3a176af-3477-4433-a6de-2db1ad04f09a" LastKnownName="MessageOccurrenceSpecification5" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="6c4df9d7-2a47-4171-9d86-e223d809c697" name="Cosmos文件系统" isActor="false" lifelineDisplayName="‎Cosmos文件系统‎">
+            <elementDefinition Id="0a83f731-19f4-4258-bbcc-c0901d64ac0d" />
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="98916c6d-0591-4c61-a7ee-c794c5ba86b8" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="250ebea5-d4aa-4a82-b0ab-90171b0361c2" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="db3b60f3-0dc0-4b42-ba4e-c2ab278bdf13" name="发送日志" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="af47cbe8-2ffd-44db-9913-b3272ff30d28" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c3b417d6-e8b8-420f-ba08-07c753bc0db2" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="168dc64b-0b9c-4776-9258-3a4447d94407" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="b8e42580-932d-485e-af27-23c0855a07f1" name="返回日志发送是否成功" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="20831b2a-86ce-4c53-8c52-34fec5d41147" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="11817461-dbb5-46e4-bd17-63deadb0da6f" LastKnownName="MessageOccurrenceSpecification3" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ec34ca1e-0fc4-4c35-a399-ec60357c9c38" LastKnownName="MessageOccurrenceSpecification4" />
+            </receiveEvent>
+          </message>
+          <message Id="8efba63c-d835-406f-b4db-c1f4bb262c01" name="经过分类后将日志保存在文件系统中" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <elementDefinition Id="4ced0693-f757-4842-bf78-a4bb3b2bc77c" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c3a176af-3477-4433-a6de-2db1ad04f09a" LastKnownName="MessageOccurrenceSpecification5" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="554a41c8-2a4e-4735-a3be-d17822bc74c8" LastKnownName="MessageOccurrenceSpecification6" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c668b7ec-8bc8-4f5d-a005-9fa837b23a06" name="ExecutionEvent">
+        <elementDefinition Id="8dcb649b-ed2b-46b1-9230-c7a93dda027f" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="245eb9bb-ea61-445e-850d-22fb3bea986a" name="ExecutionEvent">
+        <elementDefinition Id="8eb4cbf8-d8ef-4542-99b3-b978e2c12c27" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8a72e7c0-cbfb-4fe7-8be2-e0b8fecc423f" name="ExecutionEvent">
+        <elementDefinition Id="e24f3df3-fb17-4bb5-8bf4-5d3d1fc9a575" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="46c57d78-a567-4f27-b6d2-77bcfbdb6aab" name="ExecutionEvent">
+        <elementDefinition Id="3b94ab0f-811b-433e-bf91-ea1ca2777043" />
+      </executionEvent>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="8dc3b794-680a-4f25-9ad1-f21629ffc6c1" name="CoXFeedChart">
+    <elementDefinition Id="c6f549fc-18a7-403c-b62a-a00b22535e61" />
+  </package>
+</SequenceDesignerModel>

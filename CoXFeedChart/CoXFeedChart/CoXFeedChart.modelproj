@@ -25,6 +25,13 @@
     <Content Include="ModelDefinition\Package_1710.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDesign\LogGet.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDesign\LogGet.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelDesign\LogGet.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="Overall Struct.activitydiagram">
       <SubType>Content</SubType>
     </Content>
@@ -60,5 +67,6 @@
     <Content Include="ModelDefinition\CoXFeedChart.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="ModelDesign" />
   </ItemGroup>
 </Project>
