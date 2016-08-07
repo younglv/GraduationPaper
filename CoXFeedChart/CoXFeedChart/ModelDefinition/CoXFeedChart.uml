@@ -1362,22 +1362,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="10bd7075-4353-470d-9385-ee1ba3545356"
-            name="MessageOccurrenceSpecification10">
-            <covered>
-              <lifelineMoniker
-                Id="b3096e2a-f77b-4192-9d5b-f56bdbf90b8f"
-                LastKnownName="StoreConfig.xml"
-                LastKnownLocation="CoXFeedChart.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="63097d8b-7fc8-42c4-84d2-ea7d7a339c93"
             name="MessageOccurrenceSpecification9">
             <covered>
               <lifelineMoniker
                 Id="60dcfc18-b93d-45bd-81f2-3382b0ee2d9c"
                 LastKnownName="主程序"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="10bd7075-4353-470d-9385-ee1ba3545356"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="b3096e2a-f77b-4192-9d5b-f56bdbf90b8f"
+                LastKnownName="StoreConfig.xml"
                 LastKnownLocation="CoXFeedChart.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2625,22 +2625,22 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="5b143180-c3a7-402a-a0c2-e63f709c8a5b"
-            name="MessageOccurrenceSpecification12">
-            <covered>
-              <lifelineMoniker
-                Id="a019d36d-bf80-4887-a012-f2992c6c3634"
-                LastKnownName="异常处理接口"
-                LastKnownLocation="CoXFeedChart.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="e5101061-346e-4ece-a153-3126cbc6313c"
             name="MessageOccurrenceSpecification11">
             <covered>
               <lifelineMoniker
                 Id="6543a65c-43a1-42ac-a632-83fee6026ba1"
                 LastKnownName="下载数据任务"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5b143180-c3a7-402a-a0c2-e63f709c8a5b"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="a019d36d-bf80-4887-a012-f2992c6c3634"
+                LastKnownName="异常处理接口"
                 LastKnownLocation="CoXFeedChart.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -2753,22 +2753,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="3a9a872b-7444-4b13-ac09-09f93142cdaa"
-            name="MessageOccurrenceSpecification17">
-            <covered>
-              <lifelineMoniker
-                Id="a019d36d-bf80-4887-a012-f2992c6c3634"
-                LastKnownName="异常处理接口"
-                LastKnownLocation="CoXFeedChart.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
             Id="c0aa828f-0de4-4241-901d-034e25acf857"
             name="MessageOccurrenceSpecification18">
             <covered>
               <lifelineMoniker
                 Id="e7c4ebed-6ba1-4951-a604-89c60be8fe79"
                 LastKnownName="导入数据任务"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3a9a872b-7444-4b13-ac09-09f93142cdaa"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="a019d36d-bf80-4887-a012-f2992c6c3634"
+                LastKnownName="异常处理接口"
                 LastKnownLocation="CoXFeedChart.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -3019,6 +3019,571 @@
     <packageHasNamedElement>
       <executionEvent
         Id="6c49e818-797a-478c-a86e-4895d8f53c2e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="64a47c29-562f-4b1f-8445-0f41a9aca200"
+        name="Website"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="73f373b6-fc1f-45b8-bef3-3eb8abb6a1d8"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f4fb5480-a441-43b6-99e9-9b08dc0144ac"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="974573d0-8e81-448e-beda-5743902c0f75"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b5f630d-01d1-4175-b930-f0846781be3f"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5cd398c1-32ed-4ec7-8dd6-1dc382fa4839"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8e9c7171-4400-4fa7-b9cf-2c900d1d2da6"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="dc384a6d-76bf-454d-b6bf-c9f01214af0a"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="aa7b3e45-ca98-4535-a28d-d664d8d76d1c"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8c5fa884-94df-4413-8b3d-f90894c3020d"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="974573d0-8e81-448e-beda-5743902c0f75"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="aa4adabd-243c-4795-9d02-081c614d85c0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="15e55852-e6ad-4cfc-8f18-0e070a45ede5"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="8faff5b2-edf9-46f2-aa71-4fc299f761e7"
+                LastKnownName="网站页面"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2b5f630d-01d1-4175-b930-f0846781be3f"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="6725330d-1576-4e83-a68c-1f4847ca1ad3"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="69d92909-7df8-4818-91a4-805a96079777"
+                LastKnownName="数据模型"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="84d686c6-3bb3-4077-9f6a-73bd5ba14d58"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4bd46561-c975-470c-96fb-84a37d0e815b"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f940372-ec7f-4e06-ad13-4e50f0d424ec"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="afa7e3bf-8128-4cf2-80bd-fa9f6ce0da91"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4bd46561-c975-470c-96fb-84a37d0e815b"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c60505db-1211-4c02-a8a9-a67e5a513eeb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="69d92909-7df8-4818-91a4-805a96079777"
+                LastKnownName="数据模型"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5cd398c1-32ed-4ec7-8dd6-1dc382fa4839"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3f940372-ec7f-4e06-ad13-4e50f0d424ec"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="69d92909-7df8-4818-91a4-805a96079777"
+                LastKnownName="数据模型"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="afa7e3bf-8128-4cf2-80bd-fa9f6ce0da91"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="69d92909-7df8-4818-91a4-805a96079777"
+                LastKnownName="数据模型"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8e9c7171-4400-4fa7-b9cf-2c900d1d2da6"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="84d686c6-3bb3-4077-9f6a-73bd5ba14d58"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="16b74d77-c406-4a95-8f9e-8826310f1a19"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="69d92909-7df8-4818-91a4-805a96079777"
+                LastKnownName="数据模型"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="594d05db-c87a-42f2-918f-b42b01226311"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+                LastKnownName="数据库"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="e81800be-1cb1-4775-938b-969233ae0118"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1355b0fa-ddb9-48a9-8730-930ca4efd5d0"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="82828db2-ca5a-4f2b-8ef5-e1d090a9034a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="aaa8c558-37c0-4bbf-a303-fefa0deec00d"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1355b0fa-ddb9-48a9-8730-930ca4efd5d0"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="349ee7d3-da5a-4569-81f6-c06e28a1a859"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+                LastKnownName="数据库"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="dc384a6d-76bf-454d-b6bf-c9f01214af0a"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="82828db2-ca5a-4f2b-8ef5-e1d090a9034a"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+                LastKnownName="数据库"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aaa8c558-37c0-4bbf-a303-fefa0deec00d"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+                LastKnownName="数据库"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="aa7b3e45-ca98-4535-a28d-d664d8d76d1c"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="e81800be-1cb1-4775-938b-969233ae0118"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fe309492-a302-4116-ac95-f378b3770fb3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+                LastKnownName="数据库"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8c5fa884-94df-4413-8b3d-f90894c3020d"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="966440a3-1ade-4ed9-8a52-e8fba2c45a99"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="8faff5b2-edf9-46f2-aa71-4fc299f761e7"
+                LastKnownName="网站页面"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f4fb5480-a441-43b6-99e9-9b08dc0144ac"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="20cfbca7-1361-4243-83ba-5c68336eac93"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CoXFeedChart.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d47db036-0801-484b-9f80-873fb356ee39"
+                LastKnownName="控制器"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="8faff5b2-edf9-46f2-aa71-4fc299f761e7"
+            name="网站页面"
+            isActor="false"
+            lifelineDisplayName="‎网站页面‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="15e55852-e6ad-4cfc-8f18-0e070a45ede5"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="966440a3-1ade-4ed9-8a52-e8fba2c45a99"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="d47db036-0801-484b-9f80-873fb356ee39"
+            name="控制器"
+            isActor="false"
+            lifelineDisplayName="‎控制器‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="974573d0-8e81-448e-beda-5743902c0f75"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f4fb5480-a441-43b6-99e9-9b08dc0144ac"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="69d92909-7df8-4818-91a4-805a96079777"
+            name="数据模型"
+            isActor="false"
+            lifelineDisplayName="‎数据模型‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="4bd46561-c975-470c-96fb-84a37d0e815b"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="84d686c6-3bb3-4077-9f6a-73bd5ba14d58"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="8d0179b8-0658-4879-a36a-2e0f5714bcab"
+            name="数据库"
+            isActor="false"
+            lifelineDisplayName="‎数据库‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="1355b0fa-ddb9-48a9-8730-930ca4efd5d0"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e81800be-1cb1-4775-938b-969233ae0118"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="224a3f54-8482-4bfc-b024-636239b5f8d1"
+            name="用户需求"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="15e55852-e6ad-4cfc-8f18-0e070a45ede5"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b5f630d-01d1-4175-b930-f0846781be3f"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4ce5a294-4c90-47e5-92d4-df290f9f7548"
+            name="需求参数"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5cd398c1-32ed-4ec7-8dd6-1dc382fa4839"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3f940372-ec7f-4e06-ad13-4e50f0d424ec"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5ca4b73b-cef6-4599-b964-417b2c956a7d"
+            name="返回数据模型"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="afa7e3bf-8128-4cf2-80bd-fa9f6ce0da91"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8e9c7171-4400-4fa7-b9cf-2c900d1d2da6"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d955aee5-96f0-4e6c-bc0e-d1ffa1942f2b"
+            name="读取数据"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="dc384a6d-76bf-454d-b6bf-c9f01214af0a"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="82828db2-ca5a-4f2b-8ef5-e1d090a9034a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="036e4420-38a5-43ef-a0f1-20d0fe587801"
+            name="返回所需数据"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aaa8c558-37c0-4bbf-a303-fefa0deec00d"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="aa7b3e45-ca98-4535-a28d-d664d8d76d1c"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d5ac64bc-9f2f-474e-b3ba-8eda02afcb5d"
+            name="返回数据图形"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8c5fa884-94df-4413-8b3d-f90894c3020d"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="966440a3-1ade-4ed9-8a52-e8fba2c45a99"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CoXFeedChart.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="aa4adabd-243c-4795-9d02-081c614d85c0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="20cfbca7-1361-4243-83ba-5c68336eac93"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c60505db-1211-4c02-a8a9-a67e5a513eeb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="16b74d77-c406-4a95-8f9e-8826310f1a19"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="349ee7d3-da5a-4569-81f6-c06e28a1a859"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fe309492-a302-4116-ac95-f378b3770fb3"
         name="ExecutionEvent" />
     </packageHasNamedElement>
   </packagedElements>

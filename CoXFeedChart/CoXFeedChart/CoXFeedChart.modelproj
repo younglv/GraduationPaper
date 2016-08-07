@@ -53,6 +53,13 @@
       <SubType>Content</SubType>
       <DependentUpon>ModelDesign\SubmitScript.sequencediagram</DependentUpon>
     </Content>
+    <Content Include="ModelDesign\Website.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDesign\Website.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelDesign\Website.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="Overall Struct.activitydiagram">
       <SubType>Content</SubType>
     </Content>
