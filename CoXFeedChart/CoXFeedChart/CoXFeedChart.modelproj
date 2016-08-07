@@ -25,12 +25,33 @@
     <Content Include="ModelDefinition\Package_1710.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDesign\ExceptionProcess.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDesign\ExceptionProcess.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelDesign\ExceptionProcess.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDesign\ImportData.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDesign\ImportData.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelDesign\ImportData.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDesign\LogGet.sequencediagram">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDesign\LogGet.sequencediagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>ModelDesign\LogGet.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDesign\SubmitScript.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDesign\SubmitScript.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ModelDesign\SubmitScript.sequencediagram</DependentUpon>
     </Content>
     <Content Include="Overall Struct.activitydiagram">
       <SubType>Content</SubType>
